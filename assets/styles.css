@@ -230,12 +230,13 @@
 
   /* radar legend */
   .rlegend{display:flex;flex-direction:column;gap:3px;margin-top:6px}
-  .rrow{display:flex;align-items:center;gap:9px;font-family:var(--mono);font-size:12px;padding:3px 5px;cursor:pointer;border-radius:2px}
+  .rrow{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;padding:3px 5px;cursor:pointer;border-radius:2px;min-width:0}
   .rrow:hover{background:var(--hl)}
-  .rrow.off{opacity:.34}
+  .rrow.off{opacity:.42}
   .rrow .dot{width:10px;height:10px;border-radius:50%;flex:none}
-  .rrow .nm{flex:1;color:var(--ink2)}
-  .rrow .v{font-weight:600;font-variant-numeric:tabular-nums}
+  .rrow .tk{flex:none;min-width:48px;font-weight:600;color:var(--ink)}
+  .rrow .co{flex:1;min-width:0;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .rrow .v{flex:none;font-weight:600;font-variant-numeric:tabular-nums}
 
   /* heatmap */
   .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:3px}
