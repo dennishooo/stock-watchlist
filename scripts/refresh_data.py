@@ -28,7 +28,7 @@ OUTPUT
   (non-USD listings, implausible values).
 """
 from __future__ import annotations
-import argparse, json, math, subprocess, sys, time, datetime, pathlib
+import argparse, json, math, re, subprocess, sys, time, datetime, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -165,6 +165,33 @@ def dump_config(path: pathlib.Path, cfg: dict, banner: str):
     body = json.dumps(cfg, ensure_ascii=False, indent=2)
     path.write_text(f"/* {banner} */\nwindow.CONFIG = {body};\n")
 
+def stamp_meta_dates(meta: dict, asof: str) -> list[str]:
+    """Refresh the human-readable freshness strings in meta.hero / meta.footer so the page
+    never claims an older data date than the data it shows. Patterns are written to match
+    both the original hand-written strings and their own stamped output, so re-runs re-stamp.
+    Returns a list of which fields were touched."""
+    d = datetime.date.fromisoformat(asof).strftime("%d %b %Y").lstrip("0")
+    subs = [
+        # "<b>Data date</b> ~9–10 Jun 2026"  ->  "<b>Data date</b> 19 Jun 2026"
+        (r"(<b>Data date</b>)\s*[^<]*", rf"\g<1> {d}"),
+        # "<b>Prices &amp; caps</b> as of ~10 Jun 2026 (point-in-time)" -> "... as of 19 Jun 2026 (point-in-time)"
+        (r"(<b>Prices &amp; caps</b> as of )[^<(]*", rf"\g<1>{d} "),
+        # footer: "(~9–10 Jun 2026)" / "(refreshed 19 Jun 2026)" -> "(refreshed <asof>)"
+        (r"\((?:~|refreshed )[^)]*20\d\d\)", f"(refreshed {d})"),
+    ]
+    touched = []
+    for field in ("hero", "footer"):
+        old = meta.get(field)
+        if not old:
+            continue
+        new = old
+        for pat, rep in subs:
+            new = re.sub(pat, rep, new)
+        if new != old:
+            meta[field] = new
+            touched.append(field)
+    return touched
+
 def fetch_info(ticker: str, retries: int = 3) -> tuple[dict | None, str]:
     """Fetch .info for a ticker (after symbol-override), retrying transient failures.
     Returns (info_or_None, yahoo_symbol_used)."""
@@ -247,6 +274,9 @@ def main():
             print(f"  {tk:8} {'updated' if ch else 'no-change':10} {review_note}")
 
         if not args.dry_run and (sec_changed):
+            stamped = stamp_meta_dates(cfg["meta"], args.asof)
+            if stamped:
+                sec_changed.append(f"meta: data-date stamped to {args.asof} in {'/'.join(stamped)}")
             dump_config(f, cfg, f"{f.stem} — data + copy for the shared dashboard engine. "
                                 f"Quantitative fields refreshed {args.asof} via scripts/refresh_data.py; "
                                 f"radar scores & ROIC/FCF estimates are curated.")
