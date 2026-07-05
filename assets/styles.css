@@ -229,7 +229,11 @@
   .medlbl{font-family:var(--mono);font-size:9.5px;fill:var(--ink3)}
 
   /* radar legend */
-  .rlegend{display:flex;flex-direction:column;gap:3px;margin-top:6px}
+  .rleghead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:2px}
+  .rlegtoggle{font-family:var(--mono);font-size:11px;letter-spacing:.02em;color:var(--accent);background:none;border:none;padding:2px 0;cursor:pointer}
+  .rlegtoggle:hover{text-decoration:underline}
+  .rlegcount{font-family:var(--mono);font-size:11px}
+  .rlegend{display:flex;flex-direction:column;gap:3px;margin-top:6px;max-height:430px;overflow-y:auto}
   .rrow{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;padding:3px 5px;cursor:pointer;border-radius:2px;min-width:0}
   .rrow:hover{background:var(--hl)}
   .rrow.off{opacity:.42}

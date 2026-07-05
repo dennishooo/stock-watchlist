@@ -102,8 +102,9 @@ function buildBody(meta){ return `${siteNav()}<header>
     <div class="sechead"><span class="secnum">02</span><h2>Quality radar</h2></div>
     <p class="caption"><span class="dec">Decision it helps make:</span> see each business's <em>shape</em> — where a high
       composite comes from. ${meta.captions.radar} Axes are
-      normalized 0–10 (10 = best in cohort); the legend value is the lens-weighted composite. With many names shown the
-      chart plots only the <b>top scorers</b> to stay legible — raise the limit or click a legend row to spotlight one shape.</p>
+      normalized 0–10 (10 = best in cohort); the legend value is the lens-weighted composite. Presets seed the
+      chart with the <b>top scorers</b>; <b>click any legend row to add or remove it</b>, hover to spotlight, and collapse
+      the legend to show only what's plotted.</p>
     <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px">
       <span class="glabel">Show on radar</span>
       <div class="seg" id="radarNSeg" style="margin-left:4px">
@@ -116,6 +117,10 @@ function buildBody(meta){ return `${siteNav()}<header>
     <div class="grid2">
       <figure class="panel"><svg id="radar" viewBox="0 0 460 460" role="img" aria-label="Radar chart"></svg></figure>
       <div>
+        <div class="rleghead">
+          <button type="button" class="rlegtoggle" id="radarLegToggle"></button>
+          <span class="rlegcount muted" id="radarLegCount"></span>
+        </div>
         <div class="rlegend" id="radarLegend"></div>
         <p class="wexpl" style="margin-top:14px" id="lensNote"></p>
       </div>
@@ -270,7 +275,9 @@ const state={
   sortKey:null, sortDir:-1,
   dcf:DATA[0].tk, dcfV:{},
   colorMode:"ticker",   // "ticker" | "layer"
-  radarTopN:8,          // when many names visible, radar draws only the top-N by composite
+  radarTopN:8,          // preset size: seeds the radar selection when radarOn is null
+  radarOn:null,         // Set of tickers drawn on the radar; null = follow the top-N preset
+  radarCollapsed:true,  // legend shows only on-radar rows when collapsed
   verdictExpanded:false,
   hl:null               // highlighted ticker (legend/scatter hover spotlight)
 };
@@ -472,11 +479,24 @@ document.getElementById("colorSeg").querySelectorAll("button").forEach(b=>{
   b.onclick=()=>{ state.colorMode=b.dataset.color;
     document.querySelectorAll("#colorSeg button").forEach(x=>x.classList.toggle("active",x===b)); renderAll(); };
 });
-/* radar top-N */
+/* radar presets — seed the selection with the top-N by composite (clears manual picks) */
 document.getElementById("radarNSeg").querySelectorAll("button").forEach(b=>{
-  b.onclick=()=>{ state.radarTopN=parseInt(b.dataset.n,10);
+  b.onclick=()=>{ state.radarTopN=parseInt(b.dataset.n,10); state.radarOn=null;
     document.querySelectorAll("#radarNSeg button").forEach(x=>x.classList.toggle("active",x===b)); renderRadar(); };
 });
+/* radar legend collapse toggle */
+document.getElementById("radarLegToggle").onclick=()=>{ state.radarCollapsed=!state.radarCollapsed; renderRadar(); };
+/* click a legend row: add/remove that name from the radar (materialize the preset first) */
+function toggleRadar(tk){
+  if(state.radarOn===null){
+    const seed=DATA.filter(d=>state.visible.has(d.tk))
+      .sort((a,b)=>composite(b,state.lens)-composite(a,state.lens))
+      .slice(0, state.radarTopN).map(d=>d.tk);
+    state.radarOn=new Set(seed);
+  }
+  if(state.radarOn.has(tk)) state.radarOn.delete(tk); else state.radarOn.add(tk);
+  renderRadar();
+}
 
 /* ============================ SUPPLY-CHAIN MAP ============================ */
 const layerMapEl=document.getElementById("layerMap");
@@ -567,11 +587,14 @@ function renderRadar(){
     let anchor=Math.abs(Math.cos(a))<0.3?"middle":(Math.cos(a)>0?"start":"end");
     svg+=`<text x="${lx.toFixed(1)}" y="${(ly+3).toFixed(1)}" text-anchor="${anchor}" class="axislbl">${AXES[i].label}</text>`;
   }
-  // which visible names to plot: top-N by composite (keeps the chart legible at scale)
+  // which visible names are ON the radar: the manual selection (state.radarOn), or when that is
+  // null, the top-N-by-composite preset. Always intersected with what's globally visible.
   const visRanked=DATA.filter(d=>state.visible.has(d.tk))
     .sort((a,b)=>composite(b,state.lens)-composite(a,state.lens));
-  const plotted=visRanked.slice(0, state.radarTopN);
-  const plottedSet=new Set(plotted.map(d=>d.tk));
+  const plottedSet = state.radarOn===null
+    ? new Set(visRanked.slice(0, state.radarTopN).map(d=>d.tk))
+    : new Set([...state.radarOn].filter(tk=>state.visible.has(tk)));
+  const plotted=visRanked.filter(d=>plottedSet.has(d.tk));
   const spot=state.hl;  // highlighted ticker, if any
 
   // polygons (draw spotlighted one last so it sits on top)
@@ -598,22 +621,28 @@ function renderRadar(){
   // count note
   const visN=visRanked.length;
   const cn=document.getElementById("radarCountNote");
-  if(cn) cn.textContent = plotted.length<visN ? `plotting top ${plotted.length} of ${visN} shown` : `plotting all ${visN} shown`;
+  if(cn) cn.textContent = `${plotted.length} on radar · ${visN} shown`;
 
-  // legend — full ranked list of visible names; rows not on the radar are marked
+  // legend — collapsed shows only on-radar rows; expanded shows every visible name.
   const leg=document.getElementById("radarLegend");
   leg.innerHTML="";
-  visRanked.forEach(d=>{
+  const rows = state.radarCollapsed ? visRanked.filter(d=>plottedSet.has(d.tk)) : visRanked;
+  const tg=document.getElementById("radarLegToggle");
+  if(tg){ tg.textContent = state.radarCollapsed ? `Show all ${visN}` : "Show selected only";
+          tg.setAttribute("aria-expanded", String(!state.radarCollapsed)); }
+  const lcount=document.getElementById("radarLegCount");
+  if(lcount) lcount.textContent = `${plottedSet.size} on radar`;
+  rows.forEach(d=>{
     const col=colorOf(d);
     const onRadar=plottedSet.has(d.tk);
     const row=document.createElement("div");
     row.className="rrow"+(onRadar?"":" off");
-    row.title=onRadar?"":"Not plotted — raise the limit or click to spotlight";
+    row.title=onRadar?"Click to remove from radar":"Click to add to radar";
     row.innerHTML=`<span class="dot" style="background:${col}"></span>
       <span class="tk">${d.tk}</span>
       <span class="co">${d.nm}</span>
       <span class="v" style="color:${col}">${composite(d,state.lens).toFixed(1)}</span>`;
-    row.onclick=()=>toggle(d.tk);
+    row.onclick=()=>toggleRadar(d.tk);
     row.onmouseenter=()=>{ state.hl=d.tk; renderRadar(); };
     row.onmouseleave=()=>{ state.hl=null; renderRadar(); };
     leg.appendChild(row);
