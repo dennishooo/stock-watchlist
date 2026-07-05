@@ -5,7 +5,8 @@ name: Refresh market data
 # (the 0-10 radar scores, ROIC/FCF estimates, thesis, share-of-market) are preserved.
 #
 # Runs where the network is open (GitHub-hosted runner) - the authoring sandbox cannot.
-# Trigger manually from the Actions tab; the weekly schedule is opt-in (uncomment below).
+# Runs weekly (Mon 06:00 UTC) and on demand from the Actions tab; each run opens a
+# review PR - nothing lands on main unapproved.
 
 on:
   workflow_dispatch:
@@ -18,8 +19,8 @@ on:
         description: "Report only, write no changes"
         type: boolean
         default: false
-  # schedule:
-  #   - cron: "0 6 * * 1"   # 06:00 UTC every Monday
+  schedule:
+    - cron: "0 6 * * 1"   # 06:00 UTC every Monday
 
 permissions:
   contents: write
