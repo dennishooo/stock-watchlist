@@ -55,9 +55,9 @@ window.CONFIG = {
       "mcap": 41.39,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The Western uranium major (plus a Westinghouse stake) and the cleanest large-cap lever on the nuclear-fuel up-cycle; TTM revenue ~$2.6B, trailing P/E ~125x on still-recovering earnings.",
-      "bull": "Tier-1 reserves + Westinghouse fuel/services; contracting cycle turning.",
-      "bear": "Uranium-price and contracting volatility; very high trailing multiple.",
+      "thesis": "The Western uranium major (plus a Westinghouse stake) and the cleanest large-cap lever on the nuclear-fuel up-cycle; TTM revenue ~$3.6B (+35%), trailing P/E ~92x on still-recovering earnings, with EV/EBITDA above 50x pricing a sustained price cycle.",
+      "bull": "Tier-1 reserves + Westinghouse fuel/services; contracting cycle and revenue accelerating.",
+      "bear": "Uranium-price and contracting volatility; ~92x trailing, ~50x EV/EBITDA.",
       "r": {
         "val": 3,
         "growth": 8,
@@ -74,7 +74,7 @@ window.CONFIG = {
         "evEbitda": 46.2,
         "evSales": 11.7,
         "pfcf": 60,
-        "fcfYield": 1.5,
+        "fcfYield": 1.9,
         "revCagrHist": 7.1,
         "epsCagrFwd": 25,
         "gross": 36.8,
@@ -85,13 +85,13 @@ window.CONFIG = {
         "fcfMargin": 12,
         "fcfConv": 80,
         "sbc": 1,
-        "netDebtEbitda": 0.5,
+        "netDebtEbitda": 0.3,
         "intCov": 15
       },
       "d": {
         "revPS": 5.8,
-        "netCashPS": -2,
-        "fcfM": 0.15
+        "netCashPS": 0.2,
+        "fcfM": 0.13
       }
     },
     {
@@ -110,9 +110,9 @@ window.CONFIG = {
       "mcap": 4.66,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A US-focused low-cost ISR uranium developer leveraged to domestic-supply security; production restarting but TTM revenue only ~$20M against a ~$6B cap (ATH $20.34 in Jan).",
-      "bull": "Unhedged US production restart into a tight market; debt-light.",
-      "bear": "Negligible current revenue; fully exposed to spot-uranium swings; richly valued.",
+      "thesis": "A US-focused low-cost ISR uranium developer leveraged to domestic-supply security; production ramping but still loss-making (net ~-$88M), with a ~$6B cap on minimal revenue. Debt-free balance sheet funds the restart; earnings multiples are n/m — a pure spot-uranium and execution option.",
+      "bull": "Unhedged US production restart into a tight market; debt-light, no debt.",
+      "bear": "Loss-making on tiny revenue; fully exposed to spot-uranium swings; richly valued.",
       "r": {
         "val": 2,
         "growth": 8,
@@ -165,8 +165,8 @@ window.CONFIG = {
       "mcap": 6.14,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A pre-revenue developer of the high-grade Rook I project in Saskatchewan — final federal approval received, full construction targeted for summer 2026; a pure construction-and-uranium-price option.",
-      "bull": "World-class high-grade deposit, now permitted; large resource leverage.",
+      "thesis": "A pre-revenue developer of the high-grade Rook I project in Saskatchewan — fully permitted, with construction underway in 2026; a pure construction-and-uranium-price option carrying ~$213M net cash but no earnings. Valued on resource leverage and optionality, not returns.",
+      "bull": "World-class high-grade deposit, now permitted; large resource leverage, net cash.",
       "bear": "Pre-revenue and capital-hungry; construction, financing and price risk.",
       "r": {
         "val": 1,
@@ -200,7 +200,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 0,
-        "netCashPS": 1,
+        "netCashPS": 0.3,
         "fcfM": -3
       }
     },
@@ -220,9 +220,9 @@ window.CONFIG = {
       "mcap": 3.22,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The first NRC-certified SMR design — a call option on factory-made reactors; FY25 revenue $31.5M and a $356M net loss, with 2026 revenue guided to only ~$60-100M.",
-      "bull": "First-mover certified SMR; data-center and government interest.",
-      "bear": "Pre-commercial and cash-burning; Q1 26 revenue collapsed 95% YoY.",
+      "thesis": "The first NRC-certified SMR design — a call option on factory-made reactors; revenue fell ~62% YoY in Q1'26 with a ~$386M TTM net loss, against ~$884M net cash. EV/Sales ~144x on negligible revenue; valued on optionality and runway, not returns.",
+      "bull": "First-mover certified SMR; data-center and government interest; ~$884M net cash.",
+      "bear": "Pre-commercial and cash-burning; Q1'26 revenue down ~62% YoY.",
       "r": {
         "val": 1,
         "growth": 10,
@@ -255,7 +255,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 0.09,
-        "netCashPS": 1,
+        "netCashPS": 2.4,
         "fcfM": -3
       }
     },
@@ -275,8 +275,8 @@ window.CONFIG = {
       "mcap": 9.4,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A fast-reactor microreactor sold as power-as-a-service with a recycled-fuel angle; pre-revenue, but ~$2.5B of cash funds a long runway and a large signed pipeline.",
-      "bull": "Power-purchase pipeline + fuel-recycling optionality; ~$2.5B cash.",
+      "thesis": "A fast-reactor microreactor sold as power-as-a-service with a recycled-fuel angle; pre-revenue and pre-licensing, but ~$2.54B cash (after a $1.2B raise) funds a long runway and a large signed pipeline. A $10B+ cap is pure optionality; no earnings multiples apply.",
+      "bull": "Power-purchase pipeline + fuel-recycling optionality; ~$2.54B cash.",
       "bear": "Pre-revenue, pre-licensing; aggressive valuation on a long timeline.",
       "r": {
         "val": 1,
@@ -310,7 +310,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 0,
-        "netCashPS": 16,
+        "netCashPS": 14.9,
         "fcfM": -4
       }
     },
@@ -330,9 +330,9 @@ window.CONFIG = {
       "mcap": 16.77,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The sole maker of US naval nuclear reactors, extending into SMR components and medical isotopes — a profitable, moaty franchise; TTM revenue $3.4B, FY26 FCF guide $315-330M.",
+      "thesis": "The sole maker of US naval nuclear reactors, extending into SMR components and medical isotopes — a profitable, moaty franchise; TTM revenue $3.2B (+18%), with net debt near 2.6x EBITDA funding capacity buildout. Steady FCF but ~43x fwd P/E leaves little margin.",
       "bull": "Monopoly naval-reactor franchise + SMR/isotope optionality; steady FCF.",
-      "bear": "Government-budget dependence; ~43x fwd P/E; capacity-buildout capex.",
+      "bear": "Government-budget dependence; ~43x fwd P/E; rising leverage from capex.",
       "r": {
         "val": 3,
         "growth": 7,
@@ -345,27 +345,27 @@ window.CONFIG = {
       "m": {
         "peTTM": 48.9,
         "peFwd": 35.2,
-        "pegFwd": 2.4,
+        "pegFwd": 3.3,
         "evEbitda": 39.3,
         "evSales": 5.4,
         "pfcf": 50,
-        "fcfYield": 1.7,
+        "fcfYield": 1.6,
         "revCagrHist": 26.1,
         "epsCagrFwd": 12,
         "gross": 22.7,
         "op": 10.4,
         "net": 10.2,
-        "roic": 15,
+        "roic": 11,
         "roe": 29.0,
         "fcfMargin": 9,
         "fcfConv": 90,
         "sbc": 1,
-        "netDebtEbitda": 1.5,
+        "netDebtEbitda": 2.6,
         "intCov": 15
       },
       "d": {
         "revPS": 36.87,
-        "netCashPS": -10,
+        "netCashPS": -16.4,
         "fcfM": 0.09
       }
     },
@@ -385,9 +385,9 @@ window.CONFIG = {
       "mcap": 2.88,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The only US-owned enricher scaling HALEU production for advanced reactors; profitable with a $3.9B order backlog through 2040 and 2026 revenue guided to $450-500M.",
-      "bull": "Strategic US HALEU enrichment with a long backlog; profitable.",
-      "bear": "Lumpy contract revenue; capacity-expansion execution; ~50x P/E.",
+      "thesis": "The only US-owned enricher scaling HALEU production for advanced reactors; profitable with a long backlog and ~$2B net cash, but FY26 revenue growth is modest (~+6%) and consensus EPS was cut to ~$2.85. Strategic optionality at ~56x trailing leaves valuation stretched.",
+      "bull": "Strategic US HALEU enrichment with a long backlog; profitable, ~$2B net cash.",
+      "bear": "Flat-to-lumpy revenue, EPS estimates cut; ~56x P/E.",
       "r": {
         "val": 4,
         "growth": 9,
@@ -406,7 +406,7 @@ window.CONFIG = {
         "pfcf": 40,
         "fcfYield": 2,
         "revCagrHist": 4.9,
-        "epsCagrFwd": 25,
+        "epsCagrFwd": 15,
         "gross": 25.7,
         "op": -0.3,
         "net": 13.4,
@@ -415,12 +415,12 @@ window.CONFIG = {
         "fcfMargin": 12,
         "fcfConv": 80,
         "sbc": 1,
-        "netDebtEbitda": -0.5,
+        "netDebtEbitda": -2,
         "intCov": 99
       },
       "d": {
         "revPS": 24.23,
-        "netCashPS": 10,
+        "netCashPS": 100,
         "fcfM": 0.12
       }
     },
@@ -440,9 +440,9 @@ window.CONFIG = {
       "mcap": 86.53,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The largest US nuclear generator — selling firm, carbon-free baseload to data centers; 2025 revenue $25.5B, 2026 EPS guided $11-12, Q1 revenue +64% YoY.",
+      "thesis": "The largest US nuclear generator — selling firm, carbon-free baseload to data centers; ~22x forward earnings on ~13% EPS growth, with ~$21.6B net debt (~2.8x EBITDA). A scarce 24/7 carbon-free fleet, but the multiple already embeds data-center PPA upside.",
       "bull": "Scarce 24/7 carbon-free baseload with data-center PPAs and price upside.",
-      "bear": "Power-price and policy sensitivity; ~25x fwd is above the utility average.",
+      "bear": "Power-price and policy sensitivity; ~22x fwd is above the utility average.",
       "r": {
         "val": 4,
         "growth": 8,
@@ -455,13 +455,13 @@ window.CONFIG = {
       "m": {
         "peTTM": 21.9,
         "peFwd": 17.8,
-        "pegFwd": 1.6,
+        "pegFwd": 1.7,
         "evEbitda": 13.8,
         "evSales": 3.7,
         "pfcf": 26,
-        "fcfYield": 3,
+        "fcfYield": 1.3,
         "revCagrHist": 63.8,
-        "epsCagrFwd": 15,
+        "epsCagrFwd": 13,
         "gross": 23.3,
         "op": 21.9,
         "net": 12.7,
@@ -470,13 +470,13 @@ window.CONFIG = {
         "fcfMargin": 14,
         "fcfConv": 85,
         "sbc": 1,
-        "netDebtEbitda": 1.2,
+        "netDebtEbitda": 2.8,
         "intCov": 15
       },
       "d": {
         "revPS": 92.4,
-        "netCashPS": -15,
-        "fcfM": 0.14
+        "netCashPS": -60.5,
+        "fcfM": 0.05
       }
     },
     {
@@ -495,11 +495,11 @@ window.CONFIG = {
       "mcap": 46.71,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A competitive power producer (nuclear + gas + storage) geared to surging power prices and data-center demand; 2026 revenue guide ~$23.3B and adjusted EBITDA $6.8-7.6B.",
-      "bull": "Power-price upside + nuclear PTC floor; aggressive buybacks.",
-      "bear": "Commodity/hedge exposure; leverage; merchant volatility.",
+      "thesis": "A competitive power producer (nuclear + gas + storage) geared to surging power prices and data-center demand; ~17x forward earnings and ~8% FCF yield with aggressive buybacks. Net debt near 3.9x EBITDA is the main offset to an otherwise cheap growth profile.",
+      "bull": "Power-price upside + nuclear PTC floor; ~8% FCF yield, aggressive buybacks.",
+      "bear": "Commodity/hedge exposure; ~3.9x leverage; merchant volatility.",
       "r": {
-        "val": 5,
+        "val": 6,
         "growth": 8,
         "roic": 8,
         "moat": 6,
@@ -510,28 +510,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 23.2,
         "peFwd": 12.6,
-        "pegFwd": 1,
+        "pegFwd": 0.4,
         "evEbitda": 10.1,
         "evSales": 3.5,
         "pfcf": 18,
-        "fcfYield": 5,
+        "fcfYield": 8,
         "revCagrHist": 43.4,
         "epsCagrFwd": 20,
         "gross": 38.6,
         "op": 26.6,
         "net": 11.5,
-        "roic": 14,
+        "roic": 10,
         "roe": 42.9,
         "fcfMargin": 16,
         "fcfConv": 90,
         "sbc": 1,
-        "netDebtEbitda": 2.5,
+        "netDebtEbitda": 3.9,
         "intCov": 8
       },
       "d": {
         "revPS": 57.42,
-        "netCashPS": -25,
-        "fcfM": 0.16
+        "netCashPS": -57.1,
+        "fcfM": 0.18
       }
     },
     {
@@ -550,9 +550,9 @@ window.CONFIG = {
       "mcap": 233.0,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The electrification pure-play spun from GE — gas turbines, grid hardware and nuclear services riding the demand super-cycle; 2025 revenue $38B (+9%), 2026 guide ~$45.5B.",
+      "thesis": "The electrification pure-play spun from GE — gas turbines, grid hardware and nuclear services riding the demand super-cycle; FY26 revenue guided ~$45B (+12%) with record backlog and ~$9-10B net cash. Margin inflection is real, but ~47x forward and ~66x EV/EBITDA price most of it in.",
       "bull": "Turbine and grid backlog at record levels; margin inflection; net cash.",
-      "bear": "Execution on a vast backlog; rich multiple (~38-52x fwd by source).",
+      "bear": "Execution on a vast backlog; rich multiple (~47x fwd, ~66x EV/EBITDA).",
       "r": {
         "val": 3,
         "growth": 9,
@@ -565,17 +565,17 @@ window.CONFIG = {
       "m": {
         "peTTM": 25.3,
         "peFwd": 35.4,
-        "pegFwd": 1.8,
+        "pegFwd": 1.5,
         "evEbitda": 66.8,
         "evSales": 5.8,
         "pfcf": 45,
-        "fcfYield": 1.8,
+        "fcfYield": 3,
         "revCagrHist": 16.3,
         "epsCagrFwd": 20,
         "gross": 20.3,
         "op": 5.5,
         "net": 23.8,
-        "roic": 14,
+        "roic": 36,
         "roe": 75.7,
         "fcfMargin": 9,
         "fcfConv": 85,
@@ -585,8 +585,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 145.56,
-        "netCashPS": 8,
-        "fcfM": 0.09
+        "netCashPS": 34,
+        "fcfM": 0.19
       }
     },
     {
@@ -605,9 +605,9 @@ window.CONFIG = {
       "mcap": 145.79,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A wide electrical-equipment franchise levered to electrification and data-center power; TTM revenue $28.5B (~14% net margin), FY26 organic growth guided 7-9%, segment margins ~25%.",
+      "thesis": "A wide electrical-equipment franchise levered to electrification and data-center power; TTM revenue up ~17% (~14% net margin), FY26 organic growth guided high-single-digits with segment margins ~24%. High-quality compounder, but ~31x forward earnings on ~12% EPS growth is a full multiple.",
       "bull": "Secular electrification demand; strong margins and capital returns.",
-      "bear": "Industrial cyclicality; ~39x trailing P/E for the growth.",
+      "bear": "Industrial cyclicality; ~31x fwd P/E for ~12% growth.",
       "r": {
         "val": 4,
         "growth": 7,
@@ -620,11 +620,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 36.8,
         "peFwd": 23.9,
-        "pegFwd": 2.2,
+        "pegFwd": 3.1,
         "evEbitda": 26.3,
         "evSales": 5.9,
         "pfcf": 32,
-        "fcfYield": 2.8,
+        "fcfYield": 2,
         "revCagrHist": 16.8,
         "epsCagrFwd": 12,
         "gross": 37.1,
@@ -635,13 +635,13 @@ window.CONFIG = {
         "fcfMargin": 16,
         "fcfConv": 92,
         "sbc": 1,
-        "netDebtEbitda": 0.8,
+        "netDebtEbitda": 1.6,
         "intCov": 30
       },
       "d": {
         "revPS": 73.34,
-        "netCashPS": -10,
-        "fcfM": 0.16
+        "netCashPS": -25.5,
+        "fcfM": 0.12
       }
     },
     {
@@ -660,9 +660,9 @@ window.CONFIG = {
       "mcap": 97.68,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The builder of the grid itself — transmission, distribution and renewables construction; record $48.5B backlog and FY26 revenue guided to ~$35B.",
-      "bull": "Record grid-build backlog; skilled-labor scarcity moat.",
-      "bear": "Project-execution and margin risk; ~48x fwd P/E; acquisitive.",
+      "thesis": "The builder of the grid itself — transmission, distribution and renewables construction; revenue up ~26% with a record backlog and ~20% EPS growth guided. But thin ~4% net margins, ~48x forward earnings and net debt ~2.1x EBITDA leave little cushion for project-execution slips.",
+      "bull": "Record grid-build backlog; skilled-labor scarcity moat; ~26% revenue growth.",
+      "bear": "Thin margins, project-execution risk; ~48x fwd P/E; acquisitive.",
       "r": {
         "val": 3,
         "growth": 8,
@@ -675,28 +675,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 89.5,
         "peFwd": 39.5,
-        "pegFwd": 1.8,
+        "pegFwd": 2.5,
         "evEbitda": 39.0,
         "evSales": 3.4,
         "pfcf": 40,
-        "fcfYield": 1.5,
+        "fcfYield": 1.2,
         "revCagrHist": 26.3,
-        "epsCagrFwd": 15,
+        "epsCagrFwd": 20,
         "gross": 15.1,
         "op": 4.2,
         "net": 3.7,
-        "roic": 12,
+        "roic": 8,
         "roe": 13.5,
         "fcfMargin": 7,
         "fcfConv": 80,
         "sbc": 1,
-        "netDebtEbitda": 1.2,
+        "netDebtEbitda": 2.1,
         "intCov": 15
       },
       "d": {
         "revPS": 201.93,
-        "netCashPS": -20,
-        "fcfM": 0.07
+        "netCashPS": -40,
+        "fcfM": 0.03
       }
     },
     {
@@ -715,9 +715,9 @@ window.CONFIG = {
       "mcap": 177.53,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The largest US renewables developer wrapped around a premium regulated utility (FPL); ~24x P/E, ~2.6% yield with ~10% dividend growth into rising power demand.",
+      "thesis": "The largest US renewables developer wrapped around a premium regulated utility (FPL); ~23x forward earnings with ~10% dividend growth into rising power demand. FCF stays negative on heavy renewables capex and net debt runs ~6x EBITDA — leverage and policy/tax-credit exposure are the key risks.",
       "bull": "Best-in-class renewables pipeline + regulated base; rate-base growth.",
-      "bear": "Rate-sensitive; policy/tax-credit exposure; leverage.",
+      "bear": "Rate-sensitive; policy/tax-credit exposure; ~6x EBITDA leverage, negative FCF.",
       "r": {
         "val": 5,
         "growth": 7,
@@ -730,27 +730,27 @@ window.CONFIG = {
       "m": {
         "peTTM": 21.6,
         "peFwd": 19.4,
-        "pegFwd": 2.2,
+        "pegFwd": 2.25,
         "evEbitda": 20.6,
         "evSales": 10.5,
         "pfcf": 30,
         "fcfYield": 3,
         "revCagrHist": 7.3,
-        "epsCagrFwd": 9,
+        "epsCagrFwd": 13,
         "gross": 61.4,
         "op": 30.2,
         "net": 29.4,
-        "roic": 7,
+        "roic": 3,
         "roe": 10.3,
         "fcfMargin": 10,
         "fcfConv": 40,
         "sbc": 1,
-        "netDebtEbitda": 4.5,
+        "netDebtEbitda": 6.3,
         "intCov": 6
       },
       "d": {
         "revPS": 13.45,
-        "netCashPS": -12,
+        "netCashPS": -44.2,
         "fcfM": 0.1
       }
     },
@@ -770,7 +770,7 @@ window.CONFIG = {
       "mcap": 26.78,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The US solar champion — domestic thin-film manufacturing with a huge contracted backlog and the biggest IRA tax-credit tailwind; 2025 revenue $5.2B (+24%), ~$1.5B net cash, ~11x fwd P/E.",
+      "thesis": "The US solar champion — domestic thin-film manufacturing with a large contracted backlog and the biggest IRA tax-credit tailwind; TTM revenue $5.4B (+27%), ~30% net margins, ~$2.4B net cash and ~11x forward earnings. The clear value name of the cohort, with policy-credit dependence the main risk.",
       "bull": "US-made modules with multi-year backlog and large 45X credits; net cash.",
       "bear": "Policy-credit dependence; module pricing and trade-case risk.",
       "r": {
@@ -785,17 +785,17 @@ window.CONFIG = {
       "m": {
         "peTTM": 16.1,
         "peFwd": 10.6,
-        "pegFwd": 0.7,
+        "pegFwd": 0.4,
         "evEbitda": 11.0,
         "evSales": 4.6,
         "pfcf": 20,
-        "fcfYield": 2,
+        "fcfYield": 4.2,
         "revCagrHist": 23.6,
-        "epsCagrFwd": 18,
+        "epsCagrFwd": 15,
         "gross": 41.7,
         "op": 33.1,
         "net": 30.7,
-        "roic": 18,
+        "roic": 17,
         "roe": 18.4,
         "fcfMargin": 12,
         "fcfConv": 60,
@@ -805,8 +805,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 50.51,
-        "netCashPS": 14,
-        "fcfM": 0.12
+        "netCashPS": 22,
+        "fcfM": 0.22
       }
     }
   ]

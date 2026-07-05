@@ -55,11 +55,11 @@ window.CONFIG = {
       "mcap": 1013.35,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The franchise of the decade — tirzepatide (Mounjaro/Zepbound) plus an oral and next-gen pipeline; FY25 revenue ~$63B (+~32%), ~82% gross margin, ~$1.02T market cap.",
-      "bull": "Best-in-class incretin efficacy + deep pipeline; massive volume/pricing runway.",
-      "bear": "Rich multiple; manufacturing scale-up and competition risk.",
+      "thesis": "The franchise of the decade — tirzepatide (Mounjaro/Zepbound) plus oral orforglipron and next-gen pipeline; Q1 26 revenue +56%, FY26 guide raised to $82-85B, ~82% gross margin. Trades ~30x fwd on ~22% EPS CAGR — premium but PEG ~1.4 with fortress returns (ROIC ~42%).",
+      "bull": "Best-in-class incretin efficacy, oral optionality and deep pipeline; vast volume/pricing runway, ROIC &gt;40%.",
+      "bear": "~30x fwd and net debt; manufacturing scale-up, oral competition and pricing risk.",
       "r": {
-        "val": 2,
+        "val": 3,
         "growth": 10,
         "roic": 9,
         "moat": 10,
@@ -70,28 +70,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 40.3,
         "peFwd": 25.5,
-        "pegFwd": 1,
+        "pegFwd": 1.4,
         "evEbitda": 29.0,
         "evSales": 14.6,
         "pfcf": 55,
-        "fcfYield": 1.5,
+        "fcfYield": 1.2,
         "revCagrHist": 55.5,
-        "epsCagrFwd": 30,
+        "epsCagrFwd": 22,
         "gross": 82.8,
         "op": 49.4,
         "net": 35.0,
-        "roic": 28,
+        "roic": 42,
         "roe": 107.5,
         "fcfMargin": 22,
         "fcfConv": 80,
         "sbc": 2,
-        "netDebtEbitda": 0.6,
+        "netDebtEbitda": 1.2,
         "intCov": 40
       },
       "d": {
         "revPS": 80.61,
-        "netCashPS": -8,
-        "fcfM": 0.22
+        "netCashPS": -49,
+        "fcfM": 0.15
       }
     },
     {
@@ -110,9 +110,9 @@ window.CONFIG = {
       "mcap": 189.61,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "Semaglutide's originator (Ozempic/Wegovy) — the value side of the duopoly after a ~42% 52-week drop; trailing P/E ~10, EV/EBITDA ~7.7, 2025 revenue ~$45B (+6%).",
-      "bull": "Entrenched franchise + oral amycretin pipeline; cheap at ~10x trailing.",
-      "bear": "US share erosion vs Lilly; pipeline setbacks; pricing/compounding pressure.",
+      "thesis": "Semaglutide's originator (Ozempic/Wegovy) — the value side of the GLP-1 duopoly. Q1 26 revenue +17% reaccelerating on the oral Wegovy launch and raised guidance; ROIC ~40%, ~83% gross margin. Trades ~13x fwd / EV-EBITDA ~8, cheap for the quality despite US share pressure.",
+      "bull": "Entrenched franchise plus oral Wegovy/amycretin; growth reaccelerating, still cheap at ~13x fwd.",
+      "bear": "US share erosion vs Lilly; pricing and compounding pressure; pipeline execution.",
       "r": {
         "val": 7,
         "growth": 6,
@@ -129,9 +129,9 @@ window.CONFIG = {
         "evEbitda": 1.8,
         "evSales": 1.0,
         "pfcf": 15,
-        "fcfYield": 4,
+        "fcfYield": 4.8,
         "revCagrHist": 24.0,
-        "epsCagrFwd": 5,
+        "epsCagrFwd": 8,
         "gross": 83.2,
         "op": 61.6,
         "net": 37.2,
@@ -140,13 +140,13 @@ window.CONFIG = {
         "fcfMargin": 25,
         "fcfConv": 85,
         "sbc": 1,
-        "netDebtEbitda": -0.5,
+        "netDebtEbitda": 0.7,
         "intCov": 99
       },
       "d": {
         "revPS": 10,
-        "netCashPS": -1,
-        "fcfM": 0.3
+        "netCashPS": -4.3,
+        "fcfM": 0.18
       }
     },
     {
@@ -165,9 +165,9 @@ window.CONFIG = {
       "mcap": 3.22,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The premier clinical-stage obesity challenger — a dual GLP-1/GIP in injectable and oral forms; pre-revenue with only ~$155M cash, and a prime acquisition target.",
-      "bull": "Competitive efficacy data + oral optionality; buyout candidate.",
-      "bear": "No revenue; binary trial risk; thin cash needs a partner or raise to scale.",
+      "thesis": "The premier clinical-stage obesity challenger — dual GLP-1/GIP VK2735 in injectable and oral forms. Phase 3 VANQUISH-1/2 fully enrolled; pre-revenue with ~$600M cash (runway into 2027). Valued on trial data and buyout optionality, not multiples; consensus PT well above spot.",
+      "bull": "Competitive efficacy plus oral optionality; prime buyout candidate with ~$600M cash runway.",
+      "bear": "No revenue; binary Phase 3 risk; eventual partner or raise needed to commercialize.",
       "r": {
         "val": 2,
         "growth": 10,
@@ -200,7 +200,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 0,
-        "netCashPS": 1.4,
+        "netCashPS": 5.2,
         "fcfM": -3
       }
     },
@@ -220,9 +220,9 @@ window.CONFIG = {
       "mcap": 182.28,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A diversified biotech with a differentiated monthly obesity injectable (MariTide, Phase III readout early 2027) as call-option upside; 2026 revenue guide $37-38.4B, ~15.5x fwd P/E.",
-      "bull": "MariTide monthly-dosing optionality on a cash-rich biologics base.",
-      "bear": "MariTide data mixed; legacy maturation; heavy debt from Horizon.",
+      "thesis": "A diversified biotech with a differentiated monthly obesity injectable (MariTide, Phase III readout early 2027) as call-option upside; FY26 guide revenue $37-38.4B and EPS $21.60-23.00, ~15.6x fwd. Cash-rich biologics base but heavy Horizon debt (ND/EBITDA ~2.8) caps the balance-sheet score.",
+      "bull": "MariTide monthly-dosing optionality on a cash-generative biologics base; ~4% FCF yield.",
+      "bear": "MariTide data risk; legacy maturation; heavy debt from Horizon, modest growth.",
       "r": {
         "val": 5,
         "growth": 6,
@@ -235,28 +235,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 24.0,
         "peFwd": 14.4,
-        "pegFwd": 1.4,
+        "pegFwd": 2.2,
         "evEbitda": 13.5,
         "evSales": 6.1,
         "pfcf": 16,
-        "fcfYield": 5,
+        "fcfYield": 4.3,
         "revCagrHist": 5.8,
-        "epsCagrFwd": 8,
+        "epsCagrFwd": 7,
         "gross": 71.4,
         "op": 33.8,
         "net": 21.0,
-        "roic": 15,
+        "roic": 18,
         "roe": 101.3,
         "fcfMargin": 30,
         "fcfConv": 90,
         "sbc": 2,
-        "netDebtEbitda": 3,
+        "netDebtEbitda": 2.8,
         "intCov": 9
       },
       "d": {
         "revPS": 69.12,
-        "netCashPS": -55,
-        "fcfM": 0.3
+        "netCashPS": -85,
+        "fcfM": 0.22
       }
     },
     {
@@ -275,9 +275,9 @@ window.CONFIG = {
       "mcap": 6.43,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The consumer front-end of the obesity wave — telehealth subscriptions distributing weight-loss and other therapies; 2025 revenue $2.35B (+59%), but shares sold off post-Q1.",
-      "bull": "Rapid subscriber growth + GLP-1 attach; high-margin consumer platform.",
-      "bear": "Compounding/regulatory risk; reliance on branded-drug access; volatile.",
+      "thesis": "The consumer front-end of the obesity wave — telehealth subscriptions distributing weight-loss and other therapies. After exiting compounded GLP-1, Q1 26 revenue grew only ~4% YoY with a $92M loss as it pivots to branded (Novo partnership); FY26 guide raised to 19-28%. High multiple on a now-volatile growth story.",
+      "bull": "Reaccelerating guidance, branded-GLP-1 attach via Novo deal; high-margin consumer platform.",
+      "bear": "Growth slammed to +4% post-compounding exit; regulatory and access dependence; thin margins.",
       "r": {
         "val": 3,
         "growth": 10,
@@ -310,7 +310,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 10.46,
-        "netCashPS": 1.5,
+        "netCashPS": -1.1,
         "fcfM": 0.08
       }
     },
@@ -330,9 +330,9 @@ window.CONFIG = {
       "mcap": 145.91,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "Deep-value big pharma — ~8.9x fwd P/E and a ~6.7% yield, with oncology (Seagen) and an oral-obesity lottery ticket; 2026 revenue guide $59.5-62.5B.",
-      "bull": "Cheap, high-yield, with oncology pipeline and oral-obesity optionality.",
-      "bear": "2028+ patent cliffs; pipeline must replace COVID revenue; oral-GLP-1 setbacks.",
+      "thesis": "Deep-value big pharma — ~9x fwd P/E and a high yield, with oncology (Seagen) and an oral-obesity lottery ticket. FY26 guide revenue $59.5-62.5B and adj EPS $2.80-3.00, roughly flat growth. Cheap, but 2028+ patent cliffs and an unproven pipeline cap quality (ROIC ~7%).",
+      "bull": "Cheap, high-yield, with oncology pipeline and oral-obesity optionality; ~6.6% FCF yield.",
+      "bear": "2028+ patent cliffs; pipeline must replace COVID revenue; flat growth, low ROIC.",
       "r": {
         "val": 8,
         "growth": 3,
@@ -349,24 +349,24 @@ window.CONFIG = {
         "evEbitda": 7.8,
         "evSales": 3.1,
         "pfcf": 11,
-        "fcfYield": 7,
+        "fcfYield": 6.6,
         "revCagrHist": 5.4,
         "epsCagrFwd": 6,
         "gross": 74.8,
         "op": 31.6,
         "net": 11.8,
-        "roic": 8,
+        "roic": 7,
         "roe": 8.3,
         "fcfMargin": 18,
         "fcfConv": 90,
         "sbc": 2,
-        "netDebtEbitda": 2.5,
+        "netDebtEbitda": 2.1,
         "intCov": 9
       },
       "d": {
         "revPS": 11.13,
-        "netCashPS": -10,
-        "fcfM": 0.2
+        "netCashPS": -9.1,
+        "fcfM": 0.15
       }
     },
     {
@@ -385,9 +385,9 @@ window.CONFIG = {
       "mcap": 294.13,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "Keytruda's cash engine funding a pipeline pivot ahead of the 2028 patent cliff; 2025 revenue $65B, 2026 guide $65.8-67B, decade-low ~12x fwd P/E.",
-      "bull": "Keytruda cash flow + broad pipeline; subcutaneous reformulation extends it.",
-      "bear": "Keytruda concentration into 2028 LOE; pipeline must deliver.",
+      "thesis": "Keytruda's cash engine funding a pipeline pivot ahead of the 2028 patent cliff; subcutaneous reformulation extends the franchise. ~18x fwd / EV-EBITDA ~11 with ~21% ROIC and ~5% FCF yield; the spread between trailing (~31x) and forward reflects discounted post-LOE earnings.",
+      "bull": "Keytruda cash flow plus broad pipeline; subcutaneous reformulation extends the franchise.",
+      "bear": "Keytruda concentration into 2028 LOE; pipeline must deliver; growth modest near-term.",
       "r": {
         "val": 7,
         "growth": 5,
@@ -404,24 +404,24 @@ window.CONFIG = {
         "evEbitda": 11.4,
         "evSales": 5.1,
         "pfcf": 14,
-        "fcfYield": 6,
+        "fcfYield": 5,
         "revCagrHist": 4.9,
         "epsCagrFwd": 9,
         "gross": 76.7,
         "op": 38.6,
         "net": 13.6,
-        "roic": 18,
+        "roic": 21,
         "roe": 18.9,
         "fcfMargin": 25,
         "fcfConv": 90,
         "sbc": 1,
-        "netDebtEbitda": 1,
+        "netDebtEbitda": 1.5,
         "intCov": 30
       },
       "d": {
         "revPS": 26.42,
-        "netCashPS": -15,
-        "fcfM": 0.25
+        "netCashPS": -17,
+        "fcfM": 0.21
       }
     },
     {
@@ -440,11 +440,11 @@ window.CONFIG = {
       "mcap": 397.44,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "Past the Humira cliff with Skyrizi/Rinvoq growing strongly; Q1 26 revenue $15B (+12%), 2026 adjusted EPS $14.37-14.57 (~14x fwd), high yield, heavy leverage.",
-      "bull": "Skyrizi/Rinvoq durable growth replacing Humira; strong FCF and dividend.",
-      "bear": "Large debt load (high GAAP P/E from amortization); pipeline must keep filling.",
+      "thesis": "Past the Humira cliff with Skyrizi/Rinvoq growing strongly; Q1 26 revenue +12% to ~$15B, FY26 adj EPS guide raised to $14.08-14.28 (~15x fwd). Strong FCF (~34% margin) and dividend, ~13% EPS CAGR; heavy leverage (ND/EBITDA ~2.4) is the main caveat.",
+      "bull": "Skyrizi/Rinvoq durable double-digit growth replacing Humira; strong FCF and dividend.",
+      "bear": "Large debt load (GAAP P/E inflated by amortization); pipeline must keep filling.",
       "r": {
-        "val": 5,
+        "val": 6,
         "growth": 7,
         "roic": 7,
         "moat": 8,
@@ -455,28 +455,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 111.4,
         "peFwd": 13.8,
-        "pegFwd": 1.3,
+        "pegFwd": 1.1,
         "evEbitda": 15.4,
         "evSales": 7.3,
         "pfcf": 17,
-        "fcfYield": 5,
+        "fcfYield": 5.9,
         "revCagrHist": 12.4,
-        "epsCagrFwd": 9,
+        "epsCagrFwd": 13,
         "gross": 72.0,
         "op": 32.2,
         "net": 5.8,
-        "roic": 12,
+        "roic": 14,
         "roe": 80,
         "fcfMargin": 30,
         "fcfConv": 90,
         "sbc": 2,
-        "netDebtEbitda": 2.8,
+        "netDebtEbitda": 2.4,
         "intCov": 9
       },
       "d": {
         "revPS": 35.5,
-        "netCashPS": -35,
-        "fcfM": 0.3
+        "netCashPS": -36,
+        "fcfM": 0.34
       }
     },
     {
@@ -495,9 +495,9 @@ window.CONFIG = {
       "mcap": 323.53,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The world's leading oncology and diagnostics franchise; trailing P/E ~21 on ~CHF 109B revenue, a steady, dividend-rich pharma compounder (US-listed ADR).",
-      "bull": "Oncology + diagnostics leadership; durable cash generation and dividend.",
-      "bear": "Biosimilar erosion; pipeline dependence; FX (CHF) translation.",
+      "thesis": "The world's leading oncology and diagnostics franchise (US-listed ADR, CHF underlying). FY25 sales +7% CER and core EPS +11% CER; ~17.6x fwd / EV-EBITDA ~13, a steady dividend-rich compounder. Biosimilar erosion and FX translation temper the case but the pipeline is delivering.",
+      "bull": "Oncology plus diagnostics leadership; durable cash generation and dividend; FY25 core EPS +11% CER.",
+      "bear": "Biosimilar erosion; pipeline dependence; CHF translation; full-ish multiple.",
       "r": {
         "val": 6,
         "growth": 5,
@@ -510,11 +510,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 19.9,
         "peFwd": 15.6,
-        "pegFwd": 2,
+        "pegFwd": 2.2,
         "evEbitda": 14.3,
         "evSales": 5.4,
         "pfcf": 18,
-        "fcfYield": 5,
+        "fcfYield": 4.8,
         "revCagrHist": -0.4,
         "epsCagrFwd": 8,
         "gross": 74.5,
@@ -530,8 +530,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 21,
-        "netCashPS": -5,
-        "fcfM": 0.22
+        "netCashPS": -3.5,
+        "fcfM": 0.2
       }
     },
     {
@@ -550,9 +550,9 @@ window.CONFIG = {
       "mcap": 179.14,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The picks-and-shovels giant of biopharma — instruments, bioprocessing and contract manufacturing; ~19.4x fwd P/E, ~$44B revenue, raised 2026 EPS guide $24.6-25.1.",
-      "bull": "Scaled tools + CDMO levered to obesity-drug manufacturing; recovery underway.",
-      "bear": "Cyclical bioprocessing recovery; China and academic-funding exposure.",
+      "thesis": "The picks-and-shovels giant of biopharma — instruments, bioprocessing and CDMO. Q1 26 beat, FY26 EPS guide raised to $24.64-25.12 on 6-8% reported growth; ~18.6x fwd. Stock down ~17% over six months. Recovery underway but EV/EBITDA ~19 and elevated leverage (ND/EBITDA ~3.5) keep it fair, not cheap.",
+      "bull": "Scaled tools plus CDMO levered to obesity-drug manufacturing; guidance raised, recovery underway.",
+      "bear": "Cyclical bioprocessing recovery; China and academic-funding exposure; ND/EBITDA ~3.5.",
       "r": {
         "val": 5,
         "growth": 6,
@@ -565,11 +565,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 26.5,
         "peFwd": 17.7,
-        "pegFwd": 2,
+        "pegFwd": 2.1,
         "evEbitda": 19.4,
         "evSales": 4.8,
         "pfcf": 26,
-        "fcfYield": 3,
+        "fcfYield": 3.9,
         "revCagrHist": 6.2,
         "epsCagrFwd": 9,
         "gross": 40.9,
@@ -580,13 +580,13 @@ window.CONFIG = {
         "fcfMargin": 18,
         "fcfConv": 90,
         "sbc": 2,
-        "netDebtEbitda": 2,
+        "netDebtEbitda": 3.5,
         "intCov": 15
       },
       "d": {
         "revPS": 120.36,
-        "netCashPS": -30,
-        "fcfM": 0.18
+        "netCashPS": -107,
+        "fcfM": 0.14
       }
     },
     {
@@ -605,9 +605,9 @@ window.CONFIG = {
       "mcap": 129.97,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A premium tools compounder centered on high-margin bioprocessing consumables; Q1 26 revenue $5.9B, ~$24.8B TTM, ~20x fwd P/E, ~5.5% forward growth.",
-      "bull": "High-margin recurring bioprocessing consumables; disciplined capital allocation.",
-      "bear": "Bioprocessing normalization; China; full multiple.",
+      "thesis": "A premium tools compounder centered on high-margin bioprocessing consumables. Q1 26 revenue $5.95B missed with only ~0.5% core organic growth; stock down ~24% YTD. Still ~24x fwd / EV-EBITDA ~20 with PEG ~2.8 — quality franchise, but the multiple prices a recovery not yet visible.",
+      "bull": "High-margin recurring bioprocessing consumables; disciplined capital allocation; ~4% FCF yield.",
+      "bear": "Bioprocessing normalization stalled (Q1 +0.5% organic); China; full multiple at ~24x fwd.",
       "r": {
         "val": 4,
         "growth": 6,
@@ -620,28 +620,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 36.5,
         "peFwd": 20.2,
-        "pegFwd": 2.4,
+        "pegFwd": 2.8,
         "evEbitda": 18.1,
         "evSales": 5.8,
         "pfcf": 30,
-        "fcfYield": 2.5,
+        "fcfYield": 4,
         "revCagrHist": 3.7,
-        "epsCagrFwd": 10,
+        "epsCagrFwd": 8,
         "gross": 59.0,
         "op": 22.9,
         "net": 14.9,
-        "roic": 9,
+        "roic": 7,
         "roe": 7.1,
         "fcfMargin": 20,
         "fcfConv": 90,
         "sbc": 2,
-        "netDebtEbitda": 1.5,
+        "netDebtEbitda": 1.9,
         "intCov": 20
       },
       "d": {
         "revPS": 34.87,
-        "netCashPS": -8,
-        "fcfM": 0.2
+        "netCashPS": -21.5,
+        "fcfM": 0.24
       }
     },
     {
@@ -660,9 +660,9 @@ window.CONFIG = {
       "mcap": 145.92,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The robotic-surgery near-monopoly — da Vinci 5 install base compounding; Q1 26 revenue $2.77B (+23%), 2026 procedure growth guided 13.5-15.5%, fortress net cash.",
-      "bull": "~80% share + recurring instrument/service revenue; ~68% gross margin, net cash.",
-      "bear": "~46x fwd P/E; capital-equipment cyclicality; eventual competition.",
+      "thesis": "The robotic-surgery near-monopoly — da Vinci 5 install base compounding. Q1 26 revenue +23% to $2.77B, procedures up ~16%, Ion +39%; fortress ~$8B net cash. Exceptional franchise but ~46x fwd / EV-Sales ~16 leaves little margin of safety against capital-equipment cyclicality and eventual competition.",
+      "bull": "~80% share plus recurring instrument/service revenue; ~68% gross margin, net cash, +23% growth.",
+      "bear": "~46x fwd P/E; capital-equipment cyclicality; eventual competition; thin FCF yield.",
       "r": {
         "val": 2,
         "growth": 8,
@@ -695,7 +695,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 29.7,
-        "netCashPS": 25,
+        "netCashPS": 22.5,
         "fcfM": 0.28
       }
     },
@@ -715,9 +715,9 @@ window.CONFIG = {
       "mcap": 28.85,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A CGM leader riding metabolic-health awareness (GLP-1 co-use and the OTC Stelo launch); 2025 revenue $4.66B (+16%), ~25x fwd P/E.",
-      "bull": "CGM secular growth + OTC expansion; high gross margins.",
-      "bear": "GLP-1 net impact on diabetes volumes debated; Abbott competition.",
+      "thesis": "A CGM leader riding metabolic-health awareness (GLP-1 co-use and the OTC Stelo launch). Q1 26 revenue +15% to $1.19B with operating margin expanding ~850bps to 21.4% and EPS up 75%. ~25x fwd / EV-Sales ~5 with ~20% EPS CAGR (PEG ~1.2) — reasonable for the growth but not cheap given Abbott competition.",
+      "bull": "CGM secular growth plus OTC Stelo expansion; margins inflecting, EPS +75% in Q1.",
+      "bear": "GLP-1 net impact on diabetes volumes debated; Abbott competition; ~25x fwd.",
       "r": {
         "val": 4,
         "growth": 8,
@@ -730,13 +730,13 @@ window.CONFIG = {
       "m": {
         "peTTM": 32.1,
         "peFwd": 24.3,
-        "pegFwd": 1.4,
+        "pegFwd": 1.2,
         "evEbitda": 21.5,
         "evSales": 5.8,
         "pfcf": 35,
-        "fcfYield": 2,
+        "fcfYield": 4.4,
         "revCagrHist": 15.0,
-        "epsCagrFwd": 22,
+        "epsCagrFwd": 20,
         "gross": 61.5,
         "op": 21.4,
         "net": 19.3,
@@ -750,7 +750,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 12.39,
-        "netCashPS": 2,
+        "netCashPS": 1.6,
         "fcfM": 0.18
       }
     }

@@ -75,7 +75,7 @@ window.CONFIG = {
       "m": {
         "peTTM": 370.5,
         "peFwd": 152.6,
-        "pegFwd": 3,
+        "pegFwd": 7,
         "evEbitda": 126.6,
         "evSales": 14.4,
         "pfcf": 90,
@@ -96,7 +96,7 @@ window.CONFIG = {
       "d": {
         "revPS": 30.31,
         "netCashPS": 10,
-        "fcfM": 0.08
+        "fcfM": 0.05
       }
     },
     {
@@ -185,7 +185,7 @@ window.CONFIG = {
       "m": {
         "peTTM": 37.5,
         "peFwd": 29.2,
-        "pegFwd": 2.5,
+        "pegFwd": 2.0,
         "evEbitda": 21.2,
         "evSales": 4.3,
         "pfcf": 30,
@@ -229,7 +229,7 @@ window.CONFIG = {
       "bull": "Dominant CNC/robot franchise; huge net cash and through-cycle margins.",
       "bear": "China/short-cycle weakness; mature growth; yen sensitivity.",
       "r": {
-        "val": 6,
+        "val": 5,
         "growth": 5,
         "roic": 7,
         "moat": 9,
@@ -240,7 +240,7 @@ window.CONFIG = {
       "m": {
         "peTTM": 37.5,
         "peFwd": 38.7,
-        "pegFwd": 2.5,
+        "pegFwd": 4,
         "evEbitda": 24.1,
         "evSales": 6.5,
         "pfcf": 28,
@@ -261,7 +261,7 @@ window.CONFIG = {
       "d": {
         "revPS": 912,
         "netCashPS": 3000,
-        "fcfM": 0.16
+        "fcfM": 0.18
       }
     },
     {
@@ -284,7 +284,7 @@ window.CONFIG = {
       "bull": "Strong servo/robot franchise with motion-control content per robot.",
       "bear": "Short-cycle and China exposure; mid-pack margins; yen sensitivity.",
       "r": {
-        "val": 5,
+        "val": 6,
         "growth": 5,
         "roic": 6,
         "moat": 7,
@@ -350,7 +350,7 @@ window.CONFIG = {
       "m": {
         "peTTM": 45.7,
         "peFwd": 30.3,
-        "pegFwd": 2,
+        "pegFwd": 2.6,
         "evEbitda": 26.7,
         "evSales": 6.0,
         "pfcf": 28,
@@ -515,7 +515,7 @@ window.CONFIG = {
       "m": {
         "peTTM": 32.3,
         "peFwd": 25.7,
-        "pegFwd": 2.4,
+        "pegFwd": 2.7,
         "evEbitda": 21.8,
         "evSales": 5.7,
         "pfcf": 28,
@@ -530,7 +530,7 @@ window.CONFIG = {
         "fcfMargin": 18,
         "fcfConv": 95,
         "sbc": 1,
-        "netDebtEbitda": 1.5,
+        "netDebtEbitda": 1.7,
         "intCov": 15
       },
       "d": {
@@ -555,9 +555,9 @@ window.CONFIG = {
       "mcap": 5.51,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A niche enabler of lasers, photonics and precision motion designed into medical, robotics and automation OEMs; ~$1B revenue, 2026 guide $1.03-1.05B, Q1 +10%.",
+      "thesis": "A niche enabler of lasers, photonics and precision motion designed into medical, robotics and automation OEMs; ~$1B revenue with only mid-single-digit organic growth, yet trades ~41x forward and ~100x trailing (depressed by a one-off charge); net cash supports bolt-on M&amp;A.",
       "bull": "Sticky design-in components for robotics/medical; recurring content.",
-      "bear": "Small; OEM demand cyclicality; ~76x trailing P/E.",
+      "bear": "Small; OEM demand cyclicality; ~3% organic growth; ~41x fwd P/E.",
       "r": {
         "val": 3,
         "growth": 7,
@@ -570,7 +570,7 @@ window.CONFIG = {
       "m": {
         "peTTM": 111.2,
         "peFwd": 37.3,
-        "pegFwd": 2.5,
+        "pegFwd": 2.9,
         "evEbitda": 30.2,
         "evSales": 5.4,
         "pfcf": 40,
@@ -585,7 +585,7 @@ window.CONFIG = {
         "fcfMargin": 15,
         "fcfConv": 90,
         "sbc": 2,
-        "netDebtEbitda": 1.5,
+        "netDebtEbitda": -0.5,
         "intCov": 12
       },
       "d": {
@@ -645,7 +645,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 6.25,
-        "netCashPS": 1.5,
+        "netCashPS": 1.3,
         "fcfM": 0.16
       }
     },
@@ -665,7 +665,7 @@ window.CONFIG = {
       "mcap": 24.89,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "AI-robotics warehouse systems with a ~$22.3B backlog — FY25 revenue $2.25B (+26%), Q2 26 +23% and a first GAAP profit ($9M); deployment margins still maturing.",
+      "thesis": "AI-robotics warehouse systems with a ~$22B backlog — Q2 FY26 revenue +23% and a first GAAP profit ($9M), but EV/sales ~12x prices in flawless execution; deployment margins still thin and customer-concentrated.",
       "bull": "Huge contracted backlog; differentiated AI/robotics warehouse platform.",
       "bear": "Customer concentration (Walmart/GreenBox); thin margins; restatement history.",
       "r": {

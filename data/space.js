@@ -85,9 +85,9 @@ window.CONFIG = {
       "mcap": 6.08,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A pure-play on propulsion and payload integration for missiles, hypersonics and launch — exactly the part of the defense-space budget growing fastest. Profitable and recently public, priced as a high-growth defense-tech name.",
-      "bull": "Sole/dual-source propulsion content on growing missile and launch programs; profitable with rising backlog.",
-      "bear": "Newly public with limited float and a rich multiple; program-timing and budget-cycle dependence.",
+      "thesis": "A pure-play on propulsion and payload integration for missiles, hypersonics and launch — the fastest-growing slice of the defense-space budget. Profitable and growing 37-50%, but a May 2026 selling-stockholder secondary near halved the price; still ~14x sales with ~5x net leverage.",
+      "bull": "Sole/dual-source propulsion on growing missile and launch programs; record $1B+ backlog, 50%+ guided growth.",
+      "bear": "Post-IPO supply overhang from secondaries; ~5x net leverage and a rich multiple on program timing.",
       "r": {
         "val": 3,
         "growth": 8,
@@ -100,13 +100,13 @@ window.CONFIG = {
       "m": {
         "peTTM": 208.5,
         "peFwd": 49.8,
-        "pegFwd": 2,
+        "pegFwd": 1.3,
         "evEbitda": 50.4,
         "evSales": 13.2,
         "pfcf": 45,
         "fcfYield": 1.8,
         "revCagrHist": 51.0,
-        "epsCagrFwd": 20,
+        "epsCagrFwd": 40,
         "gross": 41.0,
         "op": 15.5,
         "net": 5.7,
@@ -115,12 +115,12 @@ window.CONFIG = {
         "fcfMargin": 10,
         "fcfConv": 80,
         "sbc": 1.5,
-        "netDebtEbitda": 2.5,
+        "netDebtEbitda": 5.3,
         "intCov": 8
       },
       "d": {
         "revPS": 3.95,
-        "netCashPS": -2,
+        "netCashPS": -5.8,
         "fcfM": 0.1
       }
     },
@@ -140,11 +140,11 @@ window.CONFIG = {
       "mcap": 65.64,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The clear #2 in Western launch and a vertically integrating space company: Electron dominates dedicated small launch, the Neutron medium rocket targets the lucrative mega-constellation market, and a growing Space Systems arm builds satellites and components. Pre-profit, all about the Neutron ramp.",
-      "bull": "Only credible Western launch alternative to SpaceX; Neutron optionality plus a real, growing systems business.",
-      "bear": "Deeply unprofitable with negative FCF; Neutron schedule and execution risk; valuation is all future.",
+      "thesis": "The clear #2 in Western launch and a vertically integrating space company: Electron dominates dedicated small launch, Neutron targets mega-constellations, and Space Systems builds satellites. Stock has run ~280% to ~$60B cap on Neutron optionality and Nasdaq-100 inclusion — now ~100x sales with the rocket still unflown. Pre-profit; valuation is the risk.",
+      "bull": "Only credible Western SpaceX alternative; ~$2B backlog, Neutron optionality, Nasdaq-100 passive flows.",
+      "bear": "~100x sales with Neutron unflown and FCF negative; any schedule slip de-rates a perfection price.",
       "r": {
-        "val": 2,
+        "val": 1,
         "growth": 10,
         "roic": 1,
         "moat": 7,
@@ -175,7 +175,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 1.22,
-        "netCashPS": 1,
+        "netCashPS": 1.7,
         "fcfM": -0.15
       }
     },
@@ -195,11 +195,11 @@ window.CONFIG = {
       "mcap": 121.05,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The largest pure defense prime, with a vast space division (satellites, missile defense, Orion) inside a backlog measured in years. Low-growth but cash-rich and shareholder-friendly; the F-35 and classified space programs anchor the franchise.",
-      "bull": "Multi-year backlog and entrenched program positions; ~$80B+ backlog and large buybacks/dividends.",
-      "bear": "Low single-digit growth, fixed-price program risk, and budget/political dependence; mature space mix.",
+      "thesis": "The largest pure defense prime, with a vast space division inside a multi-year backlog. FY25 saw ~$1.6B program losses dent EPS and lift trailing P/E to ~30x; the stock now sits at ~21x forward on a recovery. Low-growth but cash-rich and shareholder-friendly, with F-35 and classified space anchoring the franchise.",
+      "bull": "Multi-year backlog and entrenched programs; ~$6.9B FCF funds large buybacks and dividends.",
+      "bear": "Fixed-price program charges still sting; low single-digit growth and budget dependence cap upside.",
       "r": {
-        "val": 7,
+        "val": 6,
         "growth": 3,
         "roic": 7,
         "moat": 8,
@@ -210,28 +210,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 25.4,
         "peFwd": 16.4,
-        "pegFwd": 3.5,
+        "pegFwd": 2.0,
         "evEbitda": 17.5,
         "evSales": 1.9,
         "pfcf": 18,
-        "fcfYield": 5,
+        "fcfYield": 5.5,
         "revCagrHist": 0.3,
-        "epsCagrFwd": 4,
+        "epsCagrFwd": 8,
         "gross": 9.9,
         "op": 11.0,
         "net": 6.4,
-        "roic": 15,
+        "roic": 23,
         "roe": 67.6,
         "fcfMargin": 8,
         "fcfConv": 90,
         "sbc": 1,
-        "netDebtEbitda": 1.6,
+        "netDebtEbitda": 2.0,
         "intCov": 12
       },
       "d": {
         "revPS": 324.33,
-        "netCashPS": -40,
-        "fcfM": 0.08
+        "netCashPS": -75,
+        "fcfM": 0.09
       }
     },
     {
@@ -250,9 +250,9 @@ window.CONFIG = {
       "mcap": 77.0,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The most space-levered of the U.S. primes: Northrop builds satellites, the Space Launch System boosters, and the B-21 and Sentinel strategic programs. A long-cycle, backlog-driven compounder tied to the U.S. nuclear and space modernization wave.",
+      "thesis": "The most space-levered U.S. prime: Northrop builds satellites, SLS boosters, and the B-21 and Sentinel strategic programs. A long-cycle, backlog-driven compounder tied to the U.S. nuclear and space modernization wave, though FY25 growth was only ~2% and net leverage sits near 2.5x.",
       "bull": "Heaviest space/strategic exposure of the primes; B-21 and Sentinel anchor a decade of demand.",
-      "bear": "Fixed-price development losses have stung; slow growth and heavy capex on the modernization programs.",
+      "bear": "Fixed-price development losses have stung; ~2% growth and heavy modernization capex.",
       "r": {
         "val": 6,
         "growth": 4,
@@ -265,28 +265,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 17.0,
         "peFwd": 18.0,
-        "pegFwd": 3.4,
+        "pegFwd": 2.5,
         "evEbitda": 12.7,
         "evSales": 2.2,
         "pfcf": 20,
-        "fcfYield": 4.5,
+        "fcfYield": 4.2,
         "revCagrHist": 4.4,
-        "epsCagrFwd": 5,
+        "epsCagrFwd": 6,
         "gross": 20.5,
         "op": 11.7,
         "net": 10.8,
-        "roic": 12,
+        "roic": 14,
         "roe": 28.5,
         "fcfMargin": 7,
         "fcfConv": 88,
         "sbc": 1.5,
-        "netDebtEbitda": 1.5,
+        "netDebtEbitda": 2.5,
         "intCov": 12
       },
       "d": {
         "revPS": 296.53,
-        "netCashPS": -45,
-        "fcfM": 0.07
+        "netCashPS": -100,
+        "fcfM": 0.08
       }
     },
     {
@@ -305,11 +305,11 @@ window.CONFIG = {
       "mcap": 164.76,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A deep turnaround: a commercial-aerospace duopoly franchise wrapped around a defense-and-space arm (Starliner, satellites, SLS) that has bled fixed-price losses. Enormous demand backlog against a fragile balance sheet — the bet is on cash-flow recovery.",
-      "bull": "Duopoly commercial franchise with a huge backlog; any normalization of deliveries swings FCF sharply positive.",
-      "bear": "Loss-making with ~5x net leverage; Starliner and fixed-price space programs remain cash drains.",
+      "thesis": "A deep turnaround: a commercial-aerospace duopoly franchise wrapped around a loss-bleeding defense-and-space arm. MAX deliveries are accelerating (&gt;150 YTD 2026) and Q1 revenue rose 14% to near breakeven, but 777X certification likely slips toward 2027 and net leverage stays ~5x. The bet is on cash-flow recovery, much of which the price now reflects.",
+      "bull": "Duopoly franchise with huge backlog; MAX delivery ramp and cert progress swing FCF positive.",
+      "bear": "Still near breakeven with ~5x leverage; 777X cert slipping and space programs cash drains.",
       "r": {
-        "val": 5,
+        "val": 4,
         "growth": 5,
         "roic": 1,
         "moat": 7,
@@ -324,7 +324,7 @@ window.CONFIG = {
         "evEbitda": 30,
         "evSales": 2.1,
         "pfcf": 60,
-        "fcfYield": -1,
+        "fcfYield": 1.0,
         "revCagrHist": 14.0,
         "epsCagrFwd": 20,
         "gross": 4.8,
@@ -335,13 +335,13 @@ window.CONFIG = {
         "fcfMargin": -2,
         "fcfConv": 20,
         "sbc": 2,
-        "netDebtEbitda": 5,
+        "netDebtEbitda": 5.0,
         "intCov": 1
       },
       "d": {
         "revPS": 119.96,
-        "netCashPS": -90,
-        "fcfM": -0.02
+        "netCashPS": -55,
+        "fcfM": 0.02
       }
     },
     {
@@ -360,9 +360,9 @@ window.CONFIG = {
       "mcap": 238.92,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "Aerospace-and-defense at scale: Pratt & Whitney engines, Collins avionics, and Raytheon missiles and space sensors. The geared-turbofan recall is the known overhang; the aftermarket and missile-demand tailwinds are the offset.",
-      "bull": "Huge aftermarket annuity + missile-demand surge; diversified across commercial aero and defense/space.",
-      "bear": "GTF powder-metal recall costs linger; ~3x leverage and integration of a sprawling portfolio.",
+      "thesis": "Aerospace-and-defense at scale: Pratt engines, Collins avionics, and Raytheon missiles and space sensors. The aftermarket annuity and missile-demand surge drive 5-6% organic growth and ~$8.5B FCF, with the GTF recall now a known, fading overhang. Quality is high but the multiple is full at ~38x trailing / ~26x forward.",
+      "bull": "Huge aftermarket annuity plus missile-demand surge; diversified across commercial aero and defense.",
+      "bear": "GTF recall costs linger; ~2x leverage and a full ~26x forward multiple cap upside.",
       "r": {
         "val": 6,
         "growth": 6,
@@ -375,11 +375,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 34.0,
         "peFwd": 23.4,
-        "pegFwd": 2.2,
+        "pegFwd": 2.5,
         "evEbitda": 17.9,
         "evSales": 3.0,
         "pfcf": 22,
-        "fcfYield": 4,
+        "fcfYield": 3.3,
         "revCagrHist": 8.7,
         "epsCagrFwd": 9,
         "gross": 20.2,
@@ -390,13 +390,13 @@ window.CONFIG = {
         "fcfMargin": 11,
         "fcfConv": 88,
         "sbc": 1.5,
-        "netDebtEbitda": 2.8,
+        "netDebtEbitda": 2.1,
         "intCov": 9
       },
       "d": {
         "revPS": 67.24,
-        "netCashPS": -25,
-        "fcfM": 0.11
+        "netCashPS": -22,
+        "fcfM": 0.09
       }
     },
     {
@@ -415,9 +415,9 @@ window.CONFIG = {
       "mcap": 159.08,
       "cur": "€",
       "mcapUSD": true,
-      "thesis": "The healthier half of the aircraft duopoly, and Europe's space prime (satellites, launchers via ArianeGroup). A record commercial backlog funds a net-cash balance sheet while the space-and-defense arm rides European sovereignty spending.",
+      "thesis": "The healthier half of the aircraft duopoly and Europe's space prime. A record ~8,000-aircraft backlog funds a net-cash balance sheet, but Q1 2026 EBIT fell ~52% as a Pratt engine shortage throttled the A320neo ramp; FY guidance is reaffirmed but H2-loaded. Thesis hinges on the second-half delivery catch-up.",
       "bull": "Duopoly with the stronger order book and net cash; European defense-space spending tailwind.",
-      "bear": "Supply-chain/engine constraints cap the delivery ramp; space-and-defense margins lag commercial.",
+      "bear": "Engine shortages throttle the delivery ramp; FY targets now heavily H2-weighted.",
       "r": {
         "val": 5,
         "growth": 8,
@@ -430,17 +430,17 @@ window.CONFIG = {
       "m": {
         "peTTM": 27.6,
         "peFwd": 20.4,
-        "pegFwd": 2.4,
+        "pegFwd": 2.0,
         "evEbitda": 17.8,
         "evSales": 1.9,
         "pfcf": 26,
-        "fcfYield": 3,
+        "fcfYield": 2.9,
         "revCagrHist": -6.6,
-        "epsCagrFwd": 9,
+        "epsCagrFwd": 11,
         "gross": 15.4,
         "op": 1.5,
         "net": 6.9,
-        "roic": 16,
+        "roic": 18,
         "roe": 19.7,
         "fcfMargin": 9,
         "fcfConv": 90,
@@ -450,8 +450,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 75,
-        "netCashPS": 15,
-        "fcfM": 0.09
+        "netCashPS": 12.4,
+        "fcfM": 0.06
       }
     },
     {
@@ -470,9 +470,9 @@ window.CONFIG = {
       "mcap": 44.81,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A serial-compounder of niche aerospace components: Heico makes FAA-approved replacement parts and ruggedized electronics for aircraft, satellites and defense systems, growing organically and via a relentless bolt-on M&A machine. Premium multiple for premium consistency.",
-      "bull": "Decades of disciplined acquisitions + organic growth; sticky, certified parts with ~22% margins.",
-      "bear": "~55x earnings is among the richest here; growth depends on continued accretive M&A.",
+      "thesis": "A serial-compounder of niche aerospace components: FAA-approved replacement parts and ruggedized electronics, growing organically and via a relentless bolt-on M&amp;A machine. Record Q2 FY26 with sales +25% and net income +49% confirms the engine, but ~71x trailing / ~63x forward is among the richest multiples in the cohort — premium for premium consistency.",
+      "bull": "Disciplined acquisitions plus organic growth; sticky certified parts, +25% sales and +49% net income in Q2.",
+      "bear": "~71x earnings leaves no margin of safety; growth depends on continued accretive M&amp;A.",
       "r": {
         "val": 2,
         "growth": 9,
@@ -485,28 +485,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 57.1,
         "peFwd": 46.9,
-        "pegFwd": 3.3,
+        "pegFwd": 4.5,
         "evEbitda": 34.8,
         "evSales": 9.7,
         "pfcf": 52,
-        "fcfYield": 1.6,
+        "fcfYield": 1.7,
         "revCagrHist": 25.3,
-        "epsCagrFwd": 15,
+        "epsCagrFwd": 13,
         "gross": 40.1,
         "op": 25.5,
         "net": 16.1,
-        "roic": 12,
+        "roic": 11,
         "roe": 17.2,
         "fcfMargin": 18,
         "fcfConv": 90,
         "sbc": 1,
-        "netDebtEbitda": 1.2,
+        "netDebtEbitda": 1.74,
         "intCov": 15
       },
       "d": {
         "revPS": 35.25,
-        "netCashPS": -5,
-        "fcfM": 0.18
+        "netCashPS": -22,
+        "fcfM": 0.15
       }
     },
     {
@@ -525,9 +525,9 @@ window.CONFIG = {
       "mcap": 67.81,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A private-equity-style compounder in public form: TransDigm owns sole-source, proprietary aerospace components with extraordinary pricing power, runs ~45% operating margins, and levers the balance sheet hard to fund buyouts and special dividends.",
-      "bull": "Sole-source parts with monopoly pricing power; ~45% op margins and aggressive capital returns.",
-      "bear": "~5x net leverage by design; pricing practices draw scrutiny and growth needs ever-larger deals.",
+      "thesis": "A private-equity-style compounder in public form: sole-source, proprietary aerospace components with extraordinary pricing power, ~46% operating margins, and a hard-levered balance sheet funding buyouts and special dividends. Q2 FY26 beat with +18% revenue and a guidance raise; ongoing M&amp;A (Stellant pending) extends the runway. Leverage at 5.7x is the design-feature risk.",
+      "bull": "Sole-source parts with monopoly pricing power; ~46% op margins, +18% growth and aggressive capital returns.",
+      "bear": "5.7x net leverage by design; pricing draws scrutiny and growth needs ever-larger deals.",
       "r": {
         "val": 3,
         "growth": 9,
@@ -540,28 +540,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 37.9,
         "peFwd": 25.8,
-        "pegFwd": 2.6,
+        "pegFwd": 2.4,
         "evEbitda": 19.8,
         "evSales": 10.1,
         "pfcf": 30,
-        "fcfYield": 2.8,
+        "fcfYield": 3.2,
         "revCagrHist": 18.3,
         "epsCagrFwd": 13,
         "gross": 59.7,
         "op": 46.7,
         "net": 21.9,
-        "roic": 12,
+        "roic": 18,
         "roe": 200,
         "fcfMargin": 28,
         "fcfConv": 90,
         "sbc": 1,
-        "netDebtEbitda": 5,
+        "netDebtEbitda": 5.7,
         "intCov": 4
       },
       "d": {
         "revPS": 163.28,
-        "netCashPS": -120,
-        "fcfM": 0.28
+        "netCashPS": -486,
+        "fcfM": 0.23
       }
     },
     {
@@ -580,11 +580,11 @@ window.CONFIG = {
       "mcap": 6.41,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A turnaround in defense-and-space electronics: Mercury supplies rugged processing and RF subsystems for radar, missiles and satellites, and is recovering margins after a botched fixed-price push. Operationally levered to a backlog that is finally converting.",
-      "bull": "Recovering margins on a sticky, design-in defense/space backlog; cash flow inflecting positive.",
-      "bear": "Thin current profitability and execution scar tissue; small scale and program concentration.",
+      "thesis": "A turnaround in defense-and-space electronics: rugged processing and RF subsystems for radar, missiles and satellites, recovering margins after a botched fixed-price push. FY26 guidance was raised (mid-single-digit growth, mid-teens EBITDA margin, positive FCF) and the stock has roughly doubled — now trading above the average analyst target at ~7x sales.",
+      "bull": "Recovering margins on a sticky design-in backlog; FCF inflecting positive, FY26 guidance raised.",
+      "bear": "Still GAAP-unprofitable at ~7x sales and above target price; small scale and program concentration.",
       "r": {
-        "val": 4,
+        "val": 3,
         "growth": 7,
         "roic": 3,
         "moat": 6,
@@ -599,24 +599,24 @@ window.CONFIG = {
         "evEbitda": 70.3,
         "evSales": 7.0,
         "pfcf": 40,
-        "fcfYield": 2,
+        "fcfYield": 1.3,
         "revCagrHist": 11.5,
         "epsCagrFwd": 12,
         "gross": 28.7,
         "op": 3.2,
         "net": -1.5,
-        "roic": 5,
+        "roic": 1,
         "roe": -1.0,
         "fcfMargin": 6,
         "fcfConv": 80,
         "sbc": 2,
-        "netDebtEbitda": 2,
+        "netDebtEbitda": 3.6,
         "intCov": 5
       },
       "d": {
         "revPS": 16.3,
-        "netCashPS": -10,
-        "fcfM": 0.06
+        "netCashPS": -4.3,
+        "fcfM": 0.04
       }
     },
     {
@@ -635,11 +635,11 @@ window.CONFIG = {
       "mcap": 2.96,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A roll-up of space-infrastructure niches — solar arrays, avionics, in-space manufacturing and, via Edge Autonomy, drones. Growing fast off a small base with a chunky backlog, but still scaling toward sustained profitability.",
-      "bull": "Diversified space-infrastructure portfolio with strong bookings; Edge Autonomy adds drone exposure.",
-      "bear": "Small, acquisitive and not yet consistently profitable; dilution and integration risk.",
+      "thesis": "A roll-up of space-infrastructure niches — solar arrays, avionics, in-space manufacturing and, via Edge Autonomy, drones. Q1 2026 revenue grew ~58% with gross margin recovering to 27%, and backlog hit a record $498M (book-to-bill 1.92), but Edge Autonomy consolidation drove a $76M net loss and adj. EBITDA stayed deeply negative. Cap has doubled to ~$3.4B; profitability still unproven.",
+      "bull": "Diversified space-infrastructure portfolio, record backlog and book-to-bill 1.92; Edge Autonomy adds drones.",
+      "bear": "Adj. EBITDA still deeply negative with integration drag and dilution; ~6x sales prices in the ramp.",
       "r": {
-        "val": 3,
+        "val": 2,
         "growth": 9,
         "roic": 2,
         "moat": 5,
@@ -670,8 +670,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 2.47,
-        "netCashPS": -1,
-        "fcfM": -0.08
+        "netCashPS": 0.3,
+        "fcfM": -0.33
       }
     },
     {
@@ -690,9 +690,9 @@ window.CONFIG = {
       "mcap": 33.89,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The boldest optionality in the cohort: a constellation aiming to deliver broadband straight to ordinary smartphones, with carrier deals (AT&T, Verizon, Vodafone) and spectrum as the moat. Essentially pre-revenue — a binary bet on the constellation deploying on schedule.",
-      "bull": "Unique direct-to-device approach with tier-1 carrier partners and spectrum; vast TAM if it works.",
-      "bear": "Pre-revenue, capital-hungry and dilutive; deployment cadence and funding are existential risks.",
+      "thesis": "The boldest optionality in the cohort: a constellation delivering broadband straight to ordinary smartphones, with tier-1 carrier deals and spectrum as the moat. A Feb 2026 convertible raise extended the cash runway, and management targets 45 satellites in orbit by year-end, but at ~$11.5B cap on ~$71M revenue this remains an essentially pre-revenue, binary bet on deployment cadence.",
+      "bull": "Unique direct-to-device approach with tier-1 carriers and spectrum; &gt;$1.2B committed revenue, vast TAM.",
+      "bear": "Pre-revenue at ~115x sales and capital-hungry; deployment cadence and dilution are existential.",
       "r": {
         "val": 1,
         "growth": 10,
@@ -725,7 +725,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 0.31,
-        "netCashPS": 1.5,
+        "netCashPS": 6.0,
         "fcfM": -2
       }
     },
@@ -745,11 +745,11 @@ window.CONFIG = {
       "mcap": 4.82,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The only operator with a fully deployed, global cross-linked LEO constellation for L-band voice and IoT — sticky government and maritime customers, high incremental margins, and now a direct-to-device deal of its own. Mature constellation means low capex and strong FCF.",
-      "bull": "Global L-band moat with low go-forward capex; strong recurring FCF funding buybacks and a dividend.",
-      "bear": "Slower growth and ~3.5x leverage; next-gen constellation capex eventually returns.",
+      "thesis": "The only operator with a fully deployed, global cross-linked LEO constellation for L-band voice and IoT — sticky government and maritime customers, high incremental margins, and a direct-to-device push of its own. Mature constellation means low capex and strong FCF funding buybacks and a dividend, but growth is only ~2% and leverage sits at 3.4x.",
+      "bull": "Global L-band moat with low go-forward capex; strong recurring FCF, new NTN direct-to-device products.",
+      "bear": "~2% growth and 3.4x leverage; next-gen constellation capex eventually returns.",
       "r": {
-        "val": 6,
+        "val": 5,
         "growth": 6,
         "roic": 7,
         "moat": 8,
@@ -760,28 +760,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 46.1,
         "peFwd": 33.0,
-        "pegFwd": 1.5,
+        "pegFwd": 2.0,
         "evEbitda": 14.8,
         "evSales": 7.4,
         "pfcf": 16,
-        "fcfYield": 5,
+        "fcfYield": 6.5,
         "revCagrHist": 1.9,
-        "epsCagrFwd": 10,
+        "epsCagrFwd": 12,
         "gross": 71.6,
         "op": 23.2,
         "net": 12.1,
-        "roic": 9,
+        "roic": 7,
         "roe": 21.4,
         "fcfMargin": 28,
         "fcfConv": 95,
         "sbc": 2,
-        "netDebtEbitda": 3.5,
+        "netDebtEbitda": 3.4,
         "intCov": 6
       },
       "d": {
         "revPS": 8.24,
-        "netCashPS": -12,
-        "fcfM": 0.28
+        "netCashPS": -15.7,
+        "fcfM": 0.35
       }
     },
     {
@@ -800,11 +800,11 @@ window.CONFIG = {
       "mcap": 33.4,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A spectrum-and-satellite optionality play: Hughes satellite broadband and the Boost wireless buildout sit atop a vast, contested trove of U.S. spectrum. Loss-making and heavily indebted — the thesis is asset value, not earnings.",
-      "bull": "Deep spectrum portfolio worth a multiple of the equity in a sale/lease; satellite + 5G optionality.",
-      "bear": "Heavy debt and cash burn; spectrum monetization timing and regulatory overhang are unresolved.",
+      "thesis": "A spectrum-and-satellite story whose thesis has crystallized: in May 2026 the FCC approved ~$42B of spectrum sales to AT&amp;T (~$23B) and SpaceX (~$22B), resolving an earlier going-concern flag and sending the stock up ~530%. Hughes broadband and Boost remain loss-making, and at ~$36B cap with ~$28B net debt much of the spectrum value is now in the price.",
+      "bull": "$42B AT&amp;T/SpaceX spectrum deals approved, removing going-concern risk; satellite plus 5G optionality remains.",
+      "bear": "~$28B net debt and loss-making operations; with spectrum value realized, further upside is unclear.",
       "r": {
-        "val": 7,
+        "val": 4,
         "growth": 4,
         "roic": 1,
         "moat": 4,
@@ -835,7 +835,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 51.36,
-        "netCashPS": -60,
+        "netCashPS": -95.7,
         "fcfM": -0.05
       }
     },
@@ -855,11 +855,11 @@ window.CONFIG = {
       "mcap": 8.4,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A levered satellite-connectivity turnaround: the Inmarsat merger built a global mobility (aviation, maritime, government) franchise, but a satellite failure and heavy debt have weighed on the equity. FCF inflection as the launch-capex wave passes is the bull case.",
-      "bull": "Global mobility/government connectivity scale post-Inmarsat; FCF inflects as capex rolls off.",
-      "bear": "~4x leverage and past satellite anomalies; Starlink competition pressures consumer and mobility.",
+      "thesis": "A levered satellite-connectivity turnaround: the Inmarsat merger built a global mobility (aviation, maritime, government) franchise, and FCF has now been positive for five straight quarters with FY27 guided ~$180M. Defense wins (Space Force PTS-G) and a record backlog support the inflection, but the stock has run ~280% and net leverage is still ~3x.",
+      "bull": "Global mobility/government scale post-Inmarsat; fifth straight positive-FCF quarter, defense wins, record backlog.",
+      "bear": "~3x leverage and past satellite anomalies; Starlink pressures consumer/mobility after a ~280% run.",
       "r": {
-        "val": 6,
+        "val": 5,
         "growth": 5,
         "roic": 2,
         "moat": 5,
@@ -874,7 +874,7 @@ window.CONFIG = {
         "evEbitda": 9.6,
         "evSales": 2.9,
         "pfcf": 30,
-        "fcfYield": -2,
+        "fcfYield": 2.1,
         "revCagrHist": 2.1,
         "epsCagrFwd": 12,
         "gross": 33.0,
@@ -885,13 +885,13 @@ window.CONFIG = {
         "fcfMargin": -8,
         "fcfConv": 30,
         "sbc": 2,
-        "netDebtEbitda": 4,
+        "netDebtEbitda": 3.1,
         "intCov": 2
       },
       "d": {
         "revPS": 34.44,
-        "netCashPS": -70,
-        "fcfM": -0.06
+        "netCashPS": -19.6,
+        "fcfM": 0.04
       }
     },
     {
@@ -910,11 +910,11 @@ window.CONFIG = {
       "mcap": 3.15,
       "cur": "€",
       "mcapUSD": true,
-      "thesis": "Europe's satellite operator, reshaped by the Intelsat merger into a scaled video-and-data capacity provider with the differentiated O3b mPOWER MEO system for low-latency connectivity. Cheap and cash-generative, with C-band proceeds and synergies as catalysts.",
-      "bull": "Intelsat scale + unique MEO assets; cheap on cash flow with merger synergies and C-band cash inflows.",
-      "bear": "Secular video decline and Starlink/LEO competition; integration and capex discipline are key.",
+      "thesis": "Europe's satellite operator, reshaped by the Intelsat acquisition (closed Jul 2025) into a scaled video-and-data provider with the differentiated O3b mPOWER MEO system. Q1 2026 was the first full quarter consolidating Intelsat; 2026 is framed as a \"build\" year with growth from 2027+. Cheap on EV/EBITDA, but net leverage jumped to 3.9x and FY25 swung to a net loss.",
+      "bull": "Intelsat scale plus unique MEO assets; cheap on cash flow with synergies and IRIS2/aviation wins.",
+      "bear": "Secular video decline and Starlink competition; leverage jumped to 3.9x and 2026 is only a build year.",
       "r": {
-        "val": 7,
+        "val": 6,
         "growth": 4,
         "roic": 4,
         "moat": 6,
@@ -940,12 +940,12 @@ window.CONFIG = {
         "fcfMargin": 30,
         "fcfConv": 90,
         "sbc": 2,
-        "netDebtEbitda": 3,
+        "netDebtEbitda": 3.9,
         "intCov": 6
       },
       "d": {
         "revPS": 6,
-        "netCashPS": -4,
+        "netCashPS": -12.6,
         "fcfM": 0.3
       }
     },
@@ -965,11 +965,11 @@ window.CONFIG = {
       "mcap": 10.95,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The data-subscription model of space: Planet flies the largest fleet of imaging satellites, scanning the whole Earth daily and selling the archive as recurring subscriptions to government, agriculture and defense customers. Approaching breakeven as large contracts and AI-analytics deals scale.",
-      "bull": "Unique daily global imagery archive sold as high-margin subscriptions; large govt/defense contract wins.",
-      "bear": "Still unprofitable on a small base; long sales cycles and competition in higher-resolution imagery.",
+      "thesis": "The data-subscription model of space: Planet flies the largest imaging fleet, scanning Earth daily and selling the archive as recurring subscriptions. A 240M-euro European security contract and FY27 growth guidance of ~39% have driven revenue to records and adj. EBITDA to breakeven — but the stock is up ~991% to ~$11B cap, leaving ~24x forward sales pricing in years of execution.",
+      "bull": "Unique daily global imagery sold as subscriptions; +42% Q1 growth, record backlog, large European/defense wins.",
+      "bear": "Only just at adj-EBITDA breakeven yet ~24x forward sales after a ~991% run; competition in higher resolution.",
       "r": {
-        "val": 4,
+        "val": 2,
         "growth": 8,
         "roic": 2,
         "moat": 6,
@@ -986,7 +986,7 @@ window.CONFIG = {
         "pfcf": 60,
         "fcfYield": -1,
         "revCagrHist": 42.1,
-        "epsCagrFwd": 25,
+        "epsCagrFwd": 39,
         "gross": 55.6,
         "op": -30.5,
         "net": -111.2,
@@ -1000,8 +1000,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 1.05,
-        "netCashPS": 0.6,
-        "fcfM": -0.1
+        "netCashPS": 2.11,
+        "fcfM": 0.0
       }
     },
     {
@@ -1020,9 +1020,9 @@ window.CONFIG = {
       "mcap": 1.18,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "High-revisit imaging plus an AI analytics layer (Spectra) aimed squarely at defense and intelligence customers who need tasking in minutes. Small and pre-profit, but the Gen-3 constellation and international defense deals are the growth engine.",
-      "bull": "Real-time tasking + analytics tailored to defense/intel; Gen-3 sharpens resolution and revisit.",
-      "bear": "Sub-scale and unprofitable; capital-intensive constellation refresh and lumpy government orders.",
+      "thesis": "High-revisit imaging plus an AI analytics layer (Spectra) aimed at defense and intelligence customers needing tasking in minutes. The Gen-3 constellation is ramping (4th satellite commissioned) and FY26 guidance implies a return to strong growth with positive adj. EBITDA ($12-24M), though Q1 revenue fell ~29% on timing and the company stays sub-scale at ~$1.1B cap.",
+      "bull": "Real-time tasking plus analytics for defense/intel; Gen-3 ramp, backlog +32% to $345M, FY26 EBITDA turning positive.",
+      "bear": "Q1 revenue down ~29% and sub-scale; capital-intensive constellation refresh and lumpy government orders.",
       "r": {
         "val": 3,
         "growth": 9,
@@ -1055,8 +1055,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 2.8,
-        "netCashPS": 0.5,
-        "fcfM": -0.12
+        "netCashPS": -2.42,
+        "fcfM": -0.3
       }
     },
     {
@@ -1075,9 +1075,9 @@ window.CONFIG = {
       "mcap": 0.63,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A space-based sensor-data subscription business: Spire's nanosatellites collect weather, ship- and aircraft-tracking and RF data sold as recurring feeds. Restructured and slimmer after divesting its maritime unit; the bet is on data-subscription growth reaching cash breakeven.",
-      "bull": "Differentiated RF/weather data sold as subscriptions; leaner cost base after the maritime divestiture.",
-      "bear": "Very small, historically cash-burning and dilutive; concentrated in a few data verticals.",
+      "thesis": "A space-based sensor-data subscription business: nanosatellites collecting weather, ship- and aircraft-tracking and RF data sold as recurring feeds. The maritime divestiture to Kpler eliminated debt and left a leaner cost base, with revenue +13% ex-maritime and 76% of 2026 revenue contracted. Still operationally loss-making (adj. EBITDA -$10M) at ~7-9x sales; the bet is reaching cash breakeven.",
+      "bull": "Differentiated RF/weather data as subscriptions; debt eliminated post-divestiture, 76% of 2026 revenue contracted.",
+      "bear": "Still operationally loss-making and very small; concentrated in a few data verticals.",
       "r": {
         "val": 3,
         "growth": 8,
@@ -1130,9 +1130,9 @@ window.CONFIG = {
       "mcap": 56.45,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A defense-electronics prime with a genuine space spine: tactical radios, space-based sensors and missile-tracking payloads, plus the Aerojet Rocketdyne propulsion franchise. A scaled, backlog-rich beneficiary of missile-defense and resilient-space architectures.",
-      "bull": "Tactical comms + space sensors + Aerojet propulsion; ~$30B+ backlog and margin-expansion program.",
-      "bear": "~3x leverage from the Aerojet deal; budget-cycle dependence and integration execution.",
+      "thesis": "A defense-electronics prime with a genuine space spine: tactical radios, space-based sensors and missile-tracking payloads, plus Aerojet propulsion. Record $40.7B backlog and a $1B Dept. of War investment in Missile Solutions support the story, with a planned Missile Solutions IPO and the $845M Aerojet-space-propulsion divestiture as catalysts. Quality compounder at a full ~28x forward.",
+      "bull": "Tactical comms plus space sensors and Aerojet propulsion; record $40.7B backlog, Missile Solutions IPO optionality.",
+      "bear": "~2.8x leverage and budget-cycle dependence; full ~28x forward multiple and integration execution.",
       "r": {
         "val": 6,
         "growth": 5,
@@ -1145,17 +1145,17 @@ window.CONFIG = {
       "m": {
         "peTTM": 32.9,
         "peFwd": 22.2,
-        "pegFwd": 2.4,
+        "pegFwd": 3.0,
         "evEbitda": 34.5,
         "evSales": 5.8,
         "pfcf": 18,
-        "fcfYield": 4.5,
+        "fcfYield": 5.0,
         "revCagrHist": 190.0,
-        "epsCagrFwd": 7,
+        "epsCagrFwd": 9,
         "gross": 30.4,
         "op": 9.7,
         "net": 10.4,
-        "roic": 9,
+        "roic": 7,
         "roe": 12,
         "fcfMargin": 12,
         "fcfConv": 88,
@@ -1165,8 +1165,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 75.76,
-        "netCashPS": -30,
-        "fcfM": 0.12
+        "netCashPS": -55,
+        "fcfM": 0.13
       }
     },
     {
@@ -1185,11 +1185,11 @@ window.CONFIG = {
       "mcap": 10.28,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A pure-play on cheaper, attritable defense: jet-powered target/combat drones, solid-rocket propulsion (a scarce second source to the primes), hypersonics and space C5ISR. High-growth and richly valued on the affordable-mass-and-propulsion thesis.",
-      "bull": "Affordable drones + scarce second-source propulsion; fast bookings growth on hypersonics and space.",
-      "bear": "~70x earnings on thin margins; program timing and the need to scale manufacturing profitably.",
+      "thesis": "A pure-play on cheaper, attritable defense: jet-powered drones, solid-rocket propulsion (a scarce second source), hypersonics and space C5ISR. Q1 2026 revenue grew ~23% with book-to-bill 1.6x and FY26 guidance was raised to ~$1.76B, but the cap has jumped to ~$10.5B — leaving ~145x forward earnings on ~1-3% margins. An extreme momentum/growth story, not a value name.",
+      "bull": "Affordable drones plus scarce second-source propulsion; +23% growth, 1.6x book-to-bill, Pentagon drone-funding tailwind.",
+      "bear": "~145x forward earnings on ~1-3% margins; execution and the need to scale manufacturing profitably.",
       "r": {
-        "val": 3,
+        "val": 1,
         "growth": 9,
         "roic": 3,
         "moat": 6,
@@ -1200,17 +1200,17 @@ window.CONFIG = {
       "m": {
         "peTTM": 322.5,
         "peFwd": 51.1,
-        "pegFwd": 3,
+        "pegFwd": 5.0,
         "evEbitda": 110.8,
         "evSales": 6.4,
         "pfcf": 60,
-        "fcfYield": 1,
+        "fcfYield": 0.5,
         "revCagrHist": 22.6,
-        "epsCagrFwd": 18,
+        "epsCagrFwd": 30,
         "gross": 22.9,
         "op": 1.8,
         "net": 2.1,
-        "roic": 5,
+        "roic": 3,
         "roe": 1.2,
         "fcfMargin": 5,
         "fcfConv": 80,
@@ -1220,8 +1220,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 8.41,
-        "netCashPS": 5,
-        "fcfM": 0.06
+        "netCashPS": 8.5,
+        "fcfM": 0.01
       }
     },
     {
@@ -1240,9 +1240,9 @@ window.CONFIG = {
       "mcap": 44.69,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The downstream consumer face of the positioning chain: Garmin turns GPS into wearables, aviation avionics, marine and automotive devices, with a fortress net-cash balance sheet, ~25% operating margins and consistent double-digit growth across five diversified segments.",
-      "bull": "Diversified, profitable navigation franchise; net-cash balance sheet, ~25% margins and steady growth.",
-      "bear": "Consumer-discretionary cyclicality in wearables/fitness; not a space operator, a GPS-end-user beneficiary.",
+      "thesis": "The downstream consumer face of the positioning chain: Garmin turns GPS into wearables, aviation, marine and automotive devices, with a fortress net-cash balance sheet, ~26% operating margins and double-digit growth across five segments. FY25 revenue rose 15%; FY26 guides to ~9% with a $500M buyback added. Quality franchise at a fair, not cheap, ~26x.",
+      "bull": "Diversified, profitable navigation franchise; net cash, ~26% margins, steady growth and a new $500M buyback.",
+      "bear": "Consumer-discretionary cyclicality in wearables; a GPS end-user beneficiary, not a space operator.",
       "r": {
         "val": 6,
         "growth": 8,
@@ -1255,17 +1255,17 @@ window.CONFIG = {
       "m": {
         "peTTM": 26.5,
         "peFwd": 22.4,
-        "pegFwd": 2.2,
+        "pegFwd": 2.8,
         "evEbitda": 19.5,
         "evSales": 5.7,
         "pfcf": 28,
-        "fcfYield": 3.5,
+        "fcfYield": 3.0,
         "revCagrHist": 14.2,
-        "epsCagrFwd": 11,
+        "epsCagrFwd": 10,
         "gross": 59.1,
         "op": 24.6,
         "net": 23.3,
-        "roic": 20,
+        "roic": 19,
         "roe": 19.9,
         "fcfMargin": 24,
         "fcfConv": 95,
@@ -1275,8 +1275,8 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 38.77,
-        "netCashPS": 30,
-        "fcfM": 0.22
+        "netCashPS": 22.3,
+        "fcfM": 0.18
       }
     },
     {
@@ -1295,9 +1295,9 @@ window.CONFIG = {
       "mcap": 4.26,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The leading commercial Moon-services company: Intuitive Machines flies NASA payloads to the lunar surface and is bidding for lunar comms-and-navigation relays and data services. Early, lumpy and contract-driven — a call option on the U.S. return to the Moon.",
-      "bull": "First-mover in commercial lunar landing with NASA backing; lunar relay/data-network optionality.",
-      "bear": "Mission failures are reputational and financial; tiny revenue base, lumpy contracts and dilution.",
+      "thesis": "The leading commercial Moon-services company: Intuitive Machines flies NASA payloads to the lunar surface and is bidding for lunar comms-and-navigation relays. Q1 set a revenue record with a $1.1B backlog, but in June 2026 it lost the NASA LTV rover awards to rivals and filed a $500M ATM, sending shares down ~22%. A dilutive, lumpy, contract-driven call option on the U.S. return to the Moon.",
+      "bull": "First-mover in commercial lunar landing with NASA backing; record $1.1B backlog and lunar relay optionality.",
+      "bear": "Lost NASA LTV rover awards and filed a $500M ATM; tiny, lumpy revenue and ongoing dilution.",
       "r": {
         "val": 2,
         "growth": 10,
@@ -1330,7 +1330,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 2.66,
-        "netCashPS": 0.8,
+        "netCashPS": -1.03,
         "fcfM": -0.2
       }
     },
@@ -1350,11 +1350,11 @@ window.CONFIG = {
       "mcap": 15.31,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The downstream integrator: Leidos builds and runs the ground systems, mission software and geospatial-intelligence pipelines that turn satellite data into decisions for U.S. agencies. A steady, backlog-rich services compounder with improving margins.",
-      "bull": "Largest govt-IT/GEOINT integrator with a deep backlog; margin-expansion and strong FCF/buybacks.",
-      "bear": "Low-margin services with re-compete risk; growth is GDP-like and budget-dependent.",
+      "thesis": "The downstream integrator: Leidos builds and runs the ground systems, mission software and geospatial-intelligence pipelines that turn satellite data into decisions for U.S. agencies. A steady, backlog-rich services compounder with improving margins (14% adj. EBITDA) and raised FY26 guidance, now trading at just ~9x earnings — the discount reflects a Defense Health Agency move to reduce reliance on Leidos for its EHR program.",
+      "bull": "Largest govt-IT/GEOINT integrator with deep backlog; ~16% ROIC, strong FCF and raised FY26 guidance at ~9x earnings.",
+      "bear": "DHA EHR re-compete risk drove downgrades; low-margin services with GDP-like, budget-dependent growth.",
       "r": {
-        "val": 6,
+        "val": 7,
         "growth": 6,
         "roic": 7,
         "moat": 6,
@@ -1365,28 +1365,28 @@ window.CONFIG = {
       "m": {
         "peTTM": 11.1,
         "peFwd": 9.3,
-        "pegFwd": 2,
+        "pegFwd": 1.3,
         "evEbitda": 9.1,
         "evSales": 1.3,
         "pfcf": 15,
-        "fcfYield": 6,
+        "fcfYield": 7.5,
         "revCagrHist": 3.7,
-        "epsCagrFwd": 8,
+        "epsCagrFwd": 7,
         "gross": 17.9,
         "op": 12.2,
         "net": 8.2,
-        "roic": 11,
+        "roic": 16,
         "roe": 30.6,
         "fcfMargin": 9,
         "fcfConv": 90,
         "sbc": 1,
-        "netDebtEbitda": 2.5,
+        "netDebtEbitda": 1.1,
         "intCov": 10
       },
       "d": {
         "revPS": 136.45,
-        "netCashPS": -30,
-        "fcfM": 0.09
+        "netCashPS": -20,
+        "fcfM": 0.06
       }
     }
   ]

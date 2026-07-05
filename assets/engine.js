@@ -608,8 +608,10 @@ function renderRadar(){
     const onRadar=plottedSet.has(d.tk);
     const row=document.createElement("div");
     row.className="rrow"+(onRadar?"":" off");
+    row.title=onRadar?"":"Not plotted — raise the limit or click to spotlight";
     row.innerHTML=`<span class="dot" style="background:${col}"></span>
-      <span class="nm">${d.tk} ${d.nm}${onRadar?"":' <span class="muted" style="font-size:10px">·hidden</span>'}</span>
+      <span class="tk">${d.tk}</span>
+      <span class="co">${d.nm}</span>
       <span class="v" style="color:${col}">${composite(d,state.lens).toFixed(1)}</span>`;
     row.onclick=()=>toggle(d.tk);
     row.onmouseenter=()=>{ state.hl=d.tk; renderRadar(); };
