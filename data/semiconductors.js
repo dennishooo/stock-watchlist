@@ -3159,7 +3159,7 @@ window.CONFIG = {
       "bull": "Leading AI-server integrator with a soaring backlog; PC refresh optionality; large buybacks on cheap-ish earnings.",
       "bear": "Thin hardware margins and pass-through economics; not a chipmaker; AI-server margins are slim and competitive.",
       "r": {
-        "val": 7,
+        "val": 6,
         "growth": 6,
         "roic": 6,
         "moat": 5,

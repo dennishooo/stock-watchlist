@@ -74,7 +74,7 @@ window.CONFIG = {
       "bull": "~88% AI-training share with CUDA lock-in; ~74% gross margin and prodigious FCF.",
       "bear": "Hyperscaler concentration; any AI-capex digestion hits hardest here.",
       "r": {
-        "val": 5,
+        "val": 6,
         "growth": 10,
         "roic": 10,
         "moat": 10,
@@ -734,7 +734,7 @@ window.CONFIG = {
       "bull": "Azure AI re-acceleration + Copilot attach across a vast install base; fortress balance sheet; cheapest fwd P/E in years.",
       "bear": "~$190B FY26 capex compresses FCF (~$73B vs ~$170B OCF); growth still capacity-gated.",
       "r": {
-        "val": 6,
+        "val": 5,
         "growth": 8,
         "roic": 10,
         "moat": 10,

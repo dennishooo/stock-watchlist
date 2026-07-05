@@ -379,7 +379,7 @@ window.CONFIG = {
       "bull": "Novel topological approach plus Azure Quantum distribution; fortress base, ~47% op margin.",
       "bear": "Topological qubits unproven; heavy AI capex and ~10x EV/Sales leave little margin of safety.",
       "r": {
-        "val": 4,
+        "val": 5,
         "growth": 8,
         "roic": 10,
         "moat": 10,
