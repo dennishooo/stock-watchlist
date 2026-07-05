@@ -1,0 +1,23 @@
+name: Validate
+
+# Guards every PR and main push against shipping a broken page:
+# engine syntax, data-file evaluation, record schema, and cross-file
+# duplicate-ticker consistency (see scripts/validate_data.mjs).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Engine syntax
+        run: node --check assets/engine.js
+
+      - name: Data schema & consistency
+        run: node scripts/validate_data.mjs
