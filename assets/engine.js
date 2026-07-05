@@ -93,7 +93,7 @@ function buildBody(meta){ return `${siteNav()}<header>
   <section>
     <div class="sechead"><span class="secnum">01</span><h2>Thesis strip</h2></div>
     <p class="caption"><span class="dec">Decision it helps make:</span> a 20-second read on each name — what it is,
-      where it trades, and one composite score under the lens you've selected. Click any card to expand the thesis.</p>
+      where it trades, and one composite score under the lens you've selected. Click any card for the full thesis.</p>
     <div class="cards" id="cards"></div>
   </section>
 
@@ -562,7 +562,8 @@ function renderCards(){
         <div class="price">Price <b>${fmtMoney(d.price,d)}</b> · Mkt cap <b>${fmtMcap(d)}</b> · <span class="caret">▸</span></div>
         <p class="th">${d.thesis}</p>
       </div>`;
-    card.querySelector(".top").onclick=()=>card.classList.toggle("open");
+    card.onclick=()=>card.classList.toggle("open");
+    card.style.cursor="pointer";
     cardsEl.appendChild(card);
   });
 }
@@ -1026,8 +1027,19 @@ function countUp(elm){
         io.unobserve(en.target);
       }
     });
-  },{threshold:.12, rootMargin:"0px 0px -8% 0px"});
+  },{threshold:0, rootMargin:"0px 0px -8% 0px"});  // threshold 0: very tall sections (thesis strip,
+  // market position) can never reach a fractional visibility ratio, so any visible pixel reveals
   els.forEach(e=>io.observe(e));
+  // safety sweep: a fast flick can carry a section through the viewport between observer
+  // ticks — on scroll, reveal anything whose top has already passed the viewport bottom
+  let sweeping=false;
+  window.addEventListener("scroll",()=>{
+    if(sweeping) return; sweeping=true;
+    requestAnimationFrame(()=>{
+      els.forEach(e=>{ if(!e.classList.contains("in") && e.getBoundingClientRect().top<innerHeight) e.classList.add("in"); });
+      sweeping=false;
+    });
+  },{passive:true});
   // hero stats may already be in view on load → observe the statrow explicitly
   const sr=document.querySelector(".statrow");
   if(sr){ const io2=new IntersectionObserver((e)=>{ if(e[0].isIntersecting && !counted){ counted=true; sr.querySelectorAll(".sv[data-count]").forEach(countUp); io2.disconnect(); } },{threshold:.3}); io2.observe(sr); }
