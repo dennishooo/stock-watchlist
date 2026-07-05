@@ -60,7 +60,7 @@ window.CONFIG = {
       "mcap": 1433.15,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The market's favorite physical-AI call option — Optimus and FSD carry a ~317x trailing P/E untethered from the current auto business (2025 revenue $94.8B).",
+      "thesis": "The market's favorite physical-AI call option — record Q2 26 deliveries on a Europe rebound and Fremont S/X lines converting to Optimus builds, but ~380x trailing / ~196x forward earnings still price in the robot business a decade early (2025 revenue $94.8B).",
       "bull": "Optimus + FSD optionality at scale; manufacturing and data advantages.",
       "bear": "Auto margins compressed; robot timeline and valuation are speculative.",
       "r": {
@@ -75,7 +75,7 @@ window.CONFIG = {
       "m": {
         "peTTM": 370.5,
         "peFwd": 152.6,
-        "pegFwd": 7,
+        "pegFwd": 8,
         "evEbitda": 126.6,
         "evSales": 14.4,
         "pfcf": 90,
@@ -284,7 +284,7 @@ window.CONFIG = {
       "bull": "Strong servo/robot franchise with motion-control content per robot.",
       "bear": "Short-cycle and China exposure; mid-pack margins; yen sensitivity.",
       "r": {
-        "val": 6,
+        "val": 5,
         "growth": 5,
         "roic": 6,
         "moat": 7,
@@ -295,11 +295,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 44.1,
         "peFwd": 29.2,
-        "pegFwd": 2,
+        "pegFwd": 3.5,
         "evEbitda": 24.2,
         "evSales": 3,
         "pfcf": 28,
-        "fcfYield": 3,
+        "fcfYield": 2.5,
         "revCagrHist": 2.0,
         "epsCagrFwd": 9,
         "gross": 35.3,
@@ -350,11 +350,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 45.7,
         "peFwd": 30.3,
-        "pegFwd": 2.6,
+        "pegFwd": 2.9,
         "evEbitda": 26.7,
         "evSales": 6.0,
         "pfcf": 28,
-        "fcfYield": 3,
+        "fcfYield": 2.5,
         "revCagrHist": 11.9,
         "epsCagrFwd": 12,
         "gross": 48.9,
@@ -515,11 +515,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 32.3,
         "peFwd": 25.7,
-        "pegFwd": 2.7,
+        "pegFwd": 3.0,
         "evEbitda": 21.8,
         "evSales": 5.7,
         "pfcf": 28,
-        "fcfYield": 3,
+        "fcfYield": 2.5,
         "revCagrHist": 10.6,
         "epsCagrFwd": 10,
         "gross": 37.4,
@@ -555,9 +555,9 @@ window.CONFIG = {
       "mcap": 5.51,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A niche enabler of lasers, photonics and precision motion designed into medical, robotics and automation OEMs; ~$1B revenue with only mid-single-digit organic growth, yet trades ~41x forward and ~100x trailing (depressed by a one-off charge); net cash supports bolt-on M&amp;A.",
-      "bull": "Sticky design-in components for robotics/medical; recurring content.",
-      "bear": "Small; OEM demand cyclicality; ~3% organic growth; ~41x fwd P/E.",
+      "thesis": "A niche enabler of lasers, photonics and precision motion designed into medical, robotics and automation OEMs; 2026 guide raised to ~$1.03-1.05B revenue / $245-250M EBITDA on AI and medical demand — but the 8 Jun $1.2B-upfront Riverpoint Medical deal (closing Q3) flips net cash to ~2.5-3x leverage; ~40x forward on ~3% organic growth.",
+      "bull": "Sticky design-in robotics/medical content; Riverpoint doubles recurring medical consumables to ~$300M.",
+      "bear": "~40x fwd P/E, ~3% organic growth; Riverpoint adds ~2.5-3x net leverage into cyclical OEM demand.",
       "r": {
         "val": 3,
         "growth": 7,
@@ -585,12 +585,12 @@ window.CONFIG = {
         "fcfMargin": 15,
         "fcfConv": 90,
         "sbc": 2,
-        "netDebtEbitda": -0.5,
+        "netDebtEbitda": 2.5,
         "intCov": 12
       },
       "d": {
         "revPS": 26.66,
-        "netCashPS": -5,
+        "netCashPS": -30,
         "fcfM": 0.14
       }
     },
@@ -739,7 +739,7 @@ window.CONFIG = {
         "evEbitda": 12.7,
         "evSales": 2.3,
         "pfcf": 14,
-        "fcfYield": 4,
+        "fcfYield": 3,
         "revCagrHist": 14.3,
         "epsCagrFwd": 12,
         "gross": 48.2,
@@ -750,12 +750,12 @@ window.CONFIG = {
         "fcfMargin": 16,
         "fcfConv": 95,
         "sbc": 2,
-        "netDebtEbitda": 1.5,
+        "netDebtEbitda": 2,
         "intCov": 12
       },
       "d": {
         "revPS": 111.14,
-        "netCashPS": -20,
+        "netCashPS": -40,
         "fcfM": 0.15
       }
     }

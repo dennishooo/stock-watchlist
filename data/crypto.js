@@ -55,7 +55,7 @@ window.CONFIG = {
       "mcap": 40.57,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The blue-chip US crypto exchange — trading, custody, USDC economics and Base L2. Q1 26 revenue $1.41B fell ~30% YoY (-21% Q/Q) as BTC slid toward ~$64K; swung to a net loss. Profitable in up-markets but earnings whipsaw with volumes.",
+      "thesis": "The blue-chip US crypto exchange — trading, custody, USDC economics and Base L2. BTC's slide to ~$58K (21-month low; $4B June ETF outflows) keeps volumes depressed, yet the stock rallied to ~$166 on cost-cut discipline and a $229 consensus target. Structurally profitable in up-markets; earnings whipsaw with volumes.",
       "bull": "Dominant US exchange + USDC/Base optionality; structurally profitable when crypto volumes recover.",
       "bear": "Revenue down 30% YoY; fwd PE ~70 prices a recovery; fee compression, regulation.",
       "r": {
@@ -70,17 +70,17 @@ window.CONFIG = {
       "m": {
         "peTTM": 56.4,
         "peFwd": 31.0,
-        "pegFwd": 3.3,
+        "pegFwd": 4.5,
         "evEbitda": 20,
         "evSales": 9,
         "pfcf": 30,
-        "fcfYield": 4,
+        "fcfYield": 3,
         "revCagrHist": -30.8,
         "epsCagrFwd": 15,
         "gross": 85,
         "op": -7.1,
         "net": 12.7,
-        "roic": 18,
+        "roic": 12,
         "roe": 6.7,
         "fcfMargin": 35,
         "fcfConv": 95,
@@ -91,7 +91,7 @@ window.CONFIG = {
       "d": {
         "revPS": 23.92,
         "netCashPS": 10,
-        "fcfM": 0.35
+        "fcfM": 0.30
       }
     },
     {
@@ -110,9 +110,9 @@ window.CONFIG = {
       "mcap": 77.77,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The retail platform where equities, options and crypto converge — Q1 26 revenue $1.1B, +15% YoY, now firmly profitable with net margin ~41%. A high-beta proxy for retail risk appetite; growth decelerated as crypto cooled but subscriptions and net interest provide ballast.",
-      "bull": "Crypto + net-interest + subscriptions; high incremental margins; consensus PT lagging the rally.",
-      "bear": "Growth slowed to ~15%; EV/Sales ~15x and fwd PE ~42 leave no margin for a retail downturn.",
+      "thesis": "The retail platform where equities, options and crypto converge — up ~30% since mid-June to ~$112 despite BTC hitting 21-month lows, powered by the Robinhood Chain L2 launch and a Mizuho $130 target. Firmly profitable (~41% net margin) with subscriptions and net interest as ballast, but ~55x trailing earnings discounts flawless execution.",
+      "bull": "Crypto, net-interest and subscription engines; Robinhood Chain adds tokenization optionality; high incremental margins.",
+      "bear": "Up ~30% in three weeks against a crypto slump; ~55x TTM; consensus target ~$117 sits at the price.",
       "r": {
         "val": 2,
         "growth": 10,
@@ -125,11 +125,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 41.9,
         "peFwd": 30.8,
-        "pegFwd": 1,
+        "pegFwd": 1.6,
         "evEbitda": 35,
         "evSales": 18,
         "pfcf": 45,
-        "fcfYield": 3.1,
+        "fcfYield": 2.4,
         "revCagrHist": 15.1,
         "epsCagrFwd": 25,
         "gross": 88,
@@ -165,8 +165,8 @@ window.CONFIG = {
       "mcap": 4.81,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "One of the largest Bitcoin miners and a top corporate BTC holder (~38,700 BTC after a March sale to cut convertible debt to ~$2.3B); Q1 26 revenue $174.6M with deeply negative margins as BTC fell toward ~$64K. A leveraged, dilutive proxy for Bitcoin and hash-price.",
-      "bull": "Scaled hash-rate plus large BTC treasury; energy-cost discipline and an AI-pivot option.",
+      "thesis": "One of the largest Bitcoin miners — record 72.2 EH/s and ~36,300 BTC held — pivoting to AI/HPC via the Long Ridge Energy acquisition after retiring a third of its converts. Q1 posted a $1.3B net loss and BTC at ~$58K keeps hash economics underwater; a leveraged, dilutive proxy for Bitcoin.",
+      "bull": "Record 72 EH/s plus ~36K BTC treasury; converts cut by a third; Long Ridge gives a real AI/HPC path.",
       "bear": "GAAP losses, post-halving economics, dilution and full Bitcoin-price beta.",
       "r": {
         "val": 3,
@@ -195,12 +195,12 @@ window.CONFIG = {
         "fcfMargin": -15,
         "fcfConv": 30,
         "sbc": 10,
-        "netDebtEbitda": 1,
+        "netDebtEbitda": 0.5,
         "intCov": 2
       },
       "d": {
         "revPS": 2.38,
-        "netCashPS": 9,
+        "netCashPS": 3,
         "fcfM": -0.2
       }
     },
@@ -220,9 +220,9 @@ window.CONFIG = {
       "mcap": 9.11,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A large miner converting power capacity to AI/HPC hosting — FY25 revenue $647M (+72%), and data-center hosting already $33M (20% of Q1 26 revenue) under a 10-yr AMD lease. Controls ~1.7GW; mining still loss-making but the HPC narrative is furthest along among peers.",
-      "bull": "Big low-cost power footprint with revenue-generating AI/HPC hosting already ramping.",
-      "bear": "Mining losses, dilution and EV/Sales ~17x discount large unproven HPC buildout.",
+      "thesis": "A large miner converting power to AI/HPC hosting — the AMD lease at Rockdale doubled to 50MW (up to ~$1B over term) and Corsicana's remaining 600MW is under formal AI/HPC evaluation. Q1 revenue $167M with $33M from data centers; sold 3,778 BTC (~$290M) to fund the build as ~$58K BTC keeps mining loss-making.",
+      "bull": "AMD lease doubled to 50MW with ~$1B potential; 600MW Corsicana evaluation; big low-cost power footprint.",
+      "bear": "Mining loss-making at ~$58K BTC; selling coins to fund capex; dilution; HPC scale-up unproven.",
       "r": {
         "val": 4,
         "growth": 9,
@@ -275,9 +275,9 @@ window.CONFIG = {
       "mcap": 3.82,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A low-cost, efficiency-focused Bitcoin miner (~47 EH/s) pivoting toward AI/HPC; Q2 FY26 revenue $136M fell ~25% YoY on lower BTC (~$64K) and a $224M fair-value loss, though mining gross margin held near 47%. Net debt ~$783M raises capital-intensity risk.",
+      "thesis": "A low-cost, efficiency-focused Bitcoin miner (~47 EH/s) repositioning toward AI/HPC — but BTC's slide to ~$58K squeezes hash margins and the stock round-tripped from ~$19 to ~$12.6 in a month. Net debt ~$0.8B raises capital-intensity risk; short interest is elevated and Aug 11 earnings are the next catalyst.",
       "bull": "Low energy costs and strong fleet efficiency; HPC optionality and a modest expected FY26 profit.",
-      "bear": "Pure mining beta to Bitcoin; revenue -25% YoY, rising debt, HPC pivot pre-revenue.",
+      "bear": "Pure mining beta at ~$58K BTC; rising debt and high short interest; HPC pivot still pre-revenue.",
       "r": {
         "val": 4,
         "growth": 9,
@@ -305,7 +305,7 @@ window.CONFIG = {
         "fcfMargin": -12,
         "fcfConv": 30,
         "sbc": 9,
-        "netDebtEbitda": 0.5,
+        "netDebtEbitda": 1,
         "intCov": 2
       },
       "d": {
@@ -330,11 +330,11 @@ window.CONFIG = {
       "mcap": 18.41,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A renewables-powered miner aggressively building GPU/AI-cloud capacity — signed a ~$3.4B 5-yr NVIDIA Blackwell deal plus $1.6B Dell purchase, targeting multi-billion AI ARR by end-2026. FY25 revenue +168%, but Q3 FY26 swung to a $248M loss on heavy capex; ~$2.6B cash funds the build. An AI-data-center story wearing a mining jacket.",
+      "thesis": "A renewables-powered miner turned AI-cloud builder — the ~$3.4B NVIDIA Blackwell deal and Microsoft-linked contracts stand, but the stock fell ~40% in a month to ~$39 as the market shifted from announcements to delivery. Heavy capex losses continue with ~$2B cash funding the build; execution, not narrative, now sets the price.",
       "bull": "Renewable power plus large contracted AI-cloud buildout; net-cash balance sheet for now.",
-      "bear": "Deep losses, execution/funding risk, and EV/EBITDA ~36x on two volatile businesses.",
+      "bear": "Down ~40% in a month; deep losses and multi-billion capex; delivery risk on contracted AI capacity.",
       "r": {
-        "val": 3,
+        "val": 4,
         "growth": 10,
         "roic": 3,
         "moat": 5,
@@ -365,7 +365,7 @@ window.CONFIG = {
       },
       "d": {
         "revPS": 2.65,
-        "netCashPS": 11,
+        "netCashPS": 8,
         "fcfM": -0.1
       }
     },
@@ -385,11 +385,11 @@ window.CONFIG = {
       "mcap": 40.76,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The original leveraged Bitcoin treasury — ~847,000 BTC (~$54B at ~$64K BTC) against ~$8-9B convertibles plus large preferreds. Average cost basis ~$75.7K leaves the stack underwater, and the stock now trades at ~0.8x bitcoin NAV — a discount, reversing its historic premium.",
-      "bull": "Largest corporate BTC stack with a capital-markets machine; discount to NAV offers leverage to a BTC rebound.",
-      "bear": "NAV discount signals lost premium; convertible and preferred leverage amplify BTC drawdowns.",
+      "thesis": "The original leveraged Bitcoin treasury — ~847K BTC (~$49B at ~$58K) against ~$8-9B converts plus large preferreds, cost basis ~$76K underwater. Still trades below bitcoin NAV; the new Digital Credit framework adds a USD reserve, up to $1B of buybacks and selective BTC monetization to defend the discount. Stock swung from $136 to $82 to ~$101 in three weeks.",
+      "bull": "Sub-NAV buyback is mechanically accretive; largest corporate BTC stack gives full torque to any Bitcoin rebound.",
+      "bear": "Monetizing BTC to fund buybacks and preferred dividends signals strain; leverage amplifies a break below $58K.",
       "r": {
-        "val": 4,
+        "val": 5,
         "growth": 8,
         "roic": 3,
         "moat": 5,
@@ -440,11 +440,11 @@ window.CONFIG = {
       "mcap": 11.76,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "A diversified crypto merchant bank — trading, asset management and the Helios data-center pivot bridging crypto and AI. Q1 26 posted a $216M net loss as digital assets fell ~20%, but Helios delivered its first hall to CoreWeave under a 15-yr/526MW lease, with &gt;1.6GW ERCOT-approved. Reported revenue is gross/notional and not comparable.",
-      "bull": "Diversified crypto franchise plus a contracted, scaling AI data-center build (Helios/CoreWeave).",
+      "thesis": "A diversified crypto merchant bank whose Helios AI pivot is now contracted — CoreWeave committed to the full 800MW (average ~$1B/yr over 15 years), first halls delivered, a $1.4B project-debt facility closed and 1.6GW ERCOT-approved. Crypto beta still bites: the stock fell ~18% since mid-June with BTC near ~$58K. Reported revenue is gross/notional and not comparable.",
+      "bull": "CoreWeave leases the full 800MW Helios tranche (~$1B/yr, 15 yrs, ~90% EBITDA margin); 1.6GW approved; buyback live.",
       "bear": "Earnings swing with crypto prices; Helios capex and execution risk; net debt rising.",
       "r": {
-        "val": 4,
+        "val": 6,
         "growth": 9,
         "roic": 5,
         "moat": 5,
@@ -470,12 +470,12 @@ window.CONFIG = {
         "fcfMargin": 15,
         "fcfConv": 90,
         "sbc": 6,
-        "netDebtEbitda": 0.5,
+        "netDebtEbitda": 1,
         "intCov": 8
       },
       "d": {
         "revPS": 4.2,
-        "netCashPS": 4,
+        "netCashPS": 1,
         "fcfM": 0.12
       }
     },
@@ -495,11 +495,11 @@ window.CONFIG = {
       "mcap": 21.1,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The regulated stablecoin pure-play — USDC reached ~$77B in circulation (+28% YoY), and reserves earn the float. Q1 26 revenue $694M (+20% YoY) but the company was barely profitable as distribution costs and a Fed at ~3.5% pressure margins. Direct lever on stablecoin adoption and rates; stock has fallen back near its IPO-day level from a ~$299 peak.",
-      "bull": "Dominant regulated stablecoin with rising circulation and onchain volume; reserve-income engine.",
-      "bear": "Earnings are rate-dependent and barely positive; Tether dominance; rich fwd PE ~70+.",
+      "thesis": "The regulated stablecoin pure-play — USDC circulation keeps compounding and Standard Chartered became the first G-SIB to offer institutional USDC minting and redemption. But float economics thin as the Fed cuts and distribution costs bite; at ~$65 the stock sits ~78% below its $299 peak and under IPO-day levels. A direct lever on stablecoin adoption and rates.",
+      "bull": "StanChart is the first G-SIB distribution rail; USDC adoption compounding; regulated moat widening; Bernstein Buy.",
+      "bear": "Rate cuts squeeze float income; distribution costs eat the margin; Tether still dominates offshore.",
       "r": {
-        "val": 2,
+        "val": 3,
         "growth": 10,
         "roic": 6,
         "moat": 7,
@@ -514,7 +514,7 @@ window.CONFIG = {
         "evEbitda": 40,
         "evSales": 8,
         "pfcf": 55,
-        "fcfYield": 2.4,
+        "fcfYield": 3,
         "revCagrHist": 20.0,
         "epsCagrFwd": 35,
         "gross": 40,
@@ -550,7 +550,7 @@ window.CONFIG = {
       "mcap": 164.59,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The TradFi on-ramp — BlackRock's IBIT (~$55B AUM, &gt;800k BTC) is the dominant spot-Bitcoin ETF, channeling institutional flows for a fee atop $13.9T total AUM. Q1 26 revenue +27% YoY with ~$130B net inflows. Crypto is a tiny slice, but the franchise is a high-quality compounder at a fair ~19x forward.",
+      "thesis": "The TradFi on-ramp — IBIT (~800K BTC, ~$46B) remains the dominant spot-Bitcoin ETF but led June's record $4B complex outflows (~$3B from IBIT) as BTC hit a 21-month low. Crypto stays a rounding error on $13.9T AUM; the franchise compounds regardless at ~16x forward, with Q2 earnings July 21.",
       "bull": "Dominant crypto-ETF franchise on the largest asset-management platform; fair multiple, durable inflows.",
       "bear": "Crypto is a tiny slice of BLK; fee-rate and market-level sensitivity cap upside.",
       "r": {

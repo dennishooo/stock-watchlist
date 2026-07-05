@@ -182,7 +182,7 @@ window.CONFIG = {
       "mcapUSD": true,
       "thesis": "The only credible non-NVIDIA AI-GPU roadmap plus durable server-CPU share gains; Q1 2026 revenue $10.25B (+38%), DC $5.8B (+57%), MI350 shipping with MI400/Helios rack-scale due 2H26.",
       "bull": "Server-CPU share gains + MI-series ramp; net cash, China MI308 export approval restored.",
-      "bear": "Fwd P/E ~61 and trailing ~165 price in aggressive, still-unproven AI execution.",
+      "bear": "~73x fwd / ~173x trailing after a ~140% YTD run to ~$520; priced for flawless MI400/Helios execution against NVIDIA.",
       "r": {
         "val": 2,
         "growth": 9,
@@ -195,11 +195,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 151.3,
         "peFwd": 34.6,
-        "pegFwd": 1.5,
+        "pegFwd": 1.8,
         "evEbitda": 98.1,
         "evSales": 19.5,
         "pfcf": 70,
-        "fcfYield": 0.7,
+        "fcfYield": 0.5,
         "revCagrHist": 37.8,
         "epsCagrFwd": 40,
         "gross": 53.1,
@@ -235,11 +235,11 @@ window.CONFIG = {
       "mcap": 1005.8,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The Western HBM lever — AI accelerators need ever more high-bandwidth memory, reportedly sold out for 2026 on binding contracts; latest quarter revenue +196% YoY, Q3 FY26 guide ~$33.5B at ~81% gross margin (records).",
-      "bull": "HBM sold out with pricing power; ~81% guided gross margin; net cash; cheap on fwd P/E.",
-      "bear": "Brutally cyclical commodity memory on peak earnings; heavy capex; stock at ~$1,000 record.",
+      "thesis": "The Western HBM lever at full throttle — Q3 FY26 revenue $41.5B at 84.9% gross margin and EPS $25.11 (all records, shares +14% on the print); Q4 guided to $49-51B, HBM3E/HBM4 fully booked through calendar 2027 under 16 non-cancelable strategic agreements. Now a ~$1.3T company on a low-teens forward P/E.",
+      "bull": "HBM booked through CY2027 on non-cancelable contracts; ~85% gross margin; HBM4 ramping 2x faster than HBM3E.",
+      "bear": "A ~$1.3T commodity-memory cyclical earning record ~85% margins; any supply response or AI-capex pause is brutal from here.",
       "r": {
-        "val": 6,
+        "val": 7,
         "growth": 9,
         "roic": 7,
         "moat": 6,
@@ -254,24 +254,24 @@ window.CONFIG = {
         "evEbitda": 27.2,
         "evSales": 17.2,
         "pfcf": 14,
-        "fcfYield": 0.9,
+        "fcfYield": 3.0,
         "revCagrHist": 196.3,
         "epsCagrFwd": 40,
         "gross": 58.4,
         "op": 67.6,
         "net": 41.5,
-        "roic": 37,
+        "roic": 55,
         "roe": 39.8,
         "fcfMargin": 18,
         "fcfConv": 75,
         "sbc": 3,
-        "netDebtEbitda": -0.3,
+        "netDebtEbitda": -0.5,
         "intCov": 30
       },
       "d": {
         "revPS": 51.8,
-        "netCashPS": 5.2,
-        "fcfM": 0.17
+        "netCashPS": 12,
+        "fcfM": 0.30
       }
     },
     {
@@ -457,7 +457,7 @@ window.CONFIG = {
       "mcapUSD": true,
       "thesis": "The fastest AI-server assembler, first to scale liquid-cooled racks (~$13B Blackwell backlog) — but \"survival pricing\" gutted gross margin to ~9%, it now carries net debt, and material-weakness/governance scars persist after January's Nasdaq re-compliance.",
       "bull": "First-mover in liquid-cooled AI racks; ~$40B FY26 revenue guide; ramping to ~6,000 racks/month.",
-      "bear": "~9% gross margins amid a server price war; net debt; lingering governance discount.",
+      "bear": "Taiwan prosecutors' probe into alleged $2.5B NVIDIA-chip smuggling (offices raided, staff detained) stacks legal risk on ~9% gross margins and net debt.",
       "r": {
         "val": 4,
         "growth": 10,
@@ -510,11 +510,11 @@ window.CONFIG = {
       "mcap": 239.69,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The enterprise AI-server share leader riding a record AI-server backlog; LTM revenue ~$134B, FY27 guide ~$140B, ~$11B annual cash flow and ROIC above WACC.",
+      "thesis": "The enterprise AI-server leader at an inflection — Q1 FY27 revenue $43.8B (+88%), EPS +214%, FY27 guide raised to $165-169B with ~$60B of AI-server revenue targeted. Still ~$11B annual cash flow and mid-to-high-teens forward earnings, though the stock has roughly doubled YTD to ~$394.",
       "bull": "#1 AI-server backlog + scale; strong FCF and capital returns; ROIC &gt; WACC.",
-      "bear": "A server price war (partly SMCI-driven) pressures already-thin margins; ~$20B net debt.",
+      "bear": "Thin hardware margins on a surging AI mix; ~$20B net debt; after a ~2x YTD run, any guidance slip gets punished.",
       "r": {
-        "val": 6,
+        "val": 5,
         "growth": 7,
         "roic": 9,
         "moat": 5,
@@ -525,13 +525,13 @@ window.CONFIG = {
       "m": {
         "peTTM": 29.5,
         "peFwd": 17.5,
-        "pegFwd": 1.2,
+        "pegFwd": 0.7,
         "evEbitda": 18.7,
         "evSales": 1.9,
         "pfcf": 14,
-        "fcfYield": 3.5,
+        "fcfYield": 4.3,
         "revCagrHist": 87.5,
-        "epsCagrFwd": 14,
+        "epsCagrFwd": 25,
         "gross": 19.2,
         "op": 8.3,
         "net": 6.3,
@@ -584,7 +584,7 @@ window.CONFIG = {
         "evEbitda": 45.6,
         "evSales": 10.0,
         "pfcf": 45,
-        "fcfYield": 2.3,
+        "fcfYield": 2.2,
         "revCagrHist": 30.1,
         "epsCagrFwd": 28,
         "gross": 37.2,
@@ -730,7 +730,7 @@ window.CONFIG = {
       "mcap": 2951.76,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The enterprise AI distribution machine — Azure re-accelerated to ~+40% cc with an AI run-rate ~$37B (+123%) and capacity-constrained; ~47% operating margin. Stock de-rated ~19% YTD to near a 52-week low on capex fears.",
+      "thesis": "The enterprise AI distribution machine — Azure ~+40% cc, AI run-rate ~$37B (+123%), commercial RPO $627B (+99%), all still capacity-constrained at ~47% operating margin. De-rated to ~$373 (~24% off highs, ~19x fwd) on ~$190B CY26 capex; the July 28 FY26 Q4 print is the hinge.",
       "bull": "Azure AI re-acceleration + Copilot attach across a vast install base; fortress balance sheet; cheapest fwd P/E in years.",
       "bear": "~$190B FY26 capex compresses FCF (~$73B vs ~$170B OCF); growth still capacity-gated.",
       "r": {
@@ -745,7 +745,7 @@ window.CONFIG = {
       "m": {
         "peTTM": 23.7,
         "peFwd": 20.5,
-        "pegFwd": 1.3,
+        "pegFwd": 1.2,
         "evEbitda": 16.3,
         "evSales": 9.4,
         "pfcf": 40,
@@ -785,11 +785,11 @@ window.CONFIG = {
       "mcap": 578.83,
       "cur": "$",
       "mcapUSD": true,
-      "thesis": "The surprise AI-cloud share-taker — RPO backlog ~$638B (+363% YoY) as AI labs rent OCI (+93% YoY), but FY26 revenue grew only ~17% and FCF turned deeply negative (~-$24B) on ~$50B debt-funded GPU/datacenter capex.",
+      "thesis": "The surprise AI-cloud share-taker after a brutal de-rate — Q4 FY26 revenue +21% to $19.2B with OCI +93% and RPO ~$638B (+363%), but FY26 capex hit $55.7B, driving FCF to -$23.7B; the stock has crashed ~43% from its peak to ~$143, roughly 13x forward. Backlog is real; the funding math is the fight.",
       "bull": "Explosive OCI/RPO backlog; differentiated AI-cluster economics; Stargate-scale contracts.",
       "bear": "Negative FCF and rising debt fund the buildout; backlog conversion and GPU returns are the open question.",
       "r": {
-        "val": 3,
+        "val": 5,
         "growth": 9,
         "roic": 7,
         "moat": 6,
@@ -800,11 +800,11 @@ window.CONFIG = {
       "m": {
         "peTTM": 36.1,
         "peFwd": 18.7,
-        "pegFwd": 1.1,
+        "pegFwd": 0.7,
         "evEbitda": 25.8,
         "evSales": 11.0,
         "pfcf": 45,
-        "fcfYield": 1.5,
+        "fcfYield": -5.8,
         "revCagrHist": 21.7,
         "epsCagrFwd": 20,
         "gross": 67.1,
@@ -815,13 +815,13 @@ window.CONFIG = {
         "fcfMargin": 8,
         "fcfConv": 40,
         "sbc": 3,
-        "netDebtEbitda": 4,
+        "netDebtEbitda": 4.5,
         "intCov": 8
       },
       "d": {
         "revPS": 22.54,
-        "netCashPS": -44,
-        "fcfM": -0.35
+        "netCashPS": -50,
+        "fcfM": -0.36
       }
     }
   ]
