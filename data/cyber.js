@@ -1,8 +1,8 @@
-/* cyber — data + copy for the shared dashboard engine. Quantitative fields refreshed 2026-06-11 via scripts/refresh_data.py; radar scores & ROIC/FCF estimates are curated. */
+/* cyber — data + copy for the shared dashboard engine. Quantitative fields refreshed 2026-07-20 via scripts/refresh_data.py; radar scores & ROIC/FCF estimates are curated. */
 window.CONFIG = {
   "meta": {
     "title": "Cybersecurity — 3-Year Comparison",
-    "hero": "<div class=\"eyebrow reveal\">Equity comparison · 3-year horizon · cybersecurity value chain</div>\n    <h1 class=\"reveal\" style=\"--d:.06s\">The whole <span class=\"lede\">cyber security</span><br>value chain,<br><span class=\"tnum\">11</span> names deep.</h1>\n    <p class=\"reveal\" style=\"--d:.16s\">From the consolidating security platforms, through cloud and zero-trust (SASE), identity, detection and SIEM,\n       out to exposure management and consumer safety. A secular-growth software theme sharpened by AI-driven threats, graded on\n       returns vs. cost of capital, moat direction, balance-sheet resilience and what today's price assumes.</p>\n    <div class=\"statrow reveal\" style=\"--d:.24s\">\n      <div class=\"stat\"><div class=\"sv\" data-count=\"11\">0</div><div class=\"sl\">Companies</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"5\">0</div><div class=\"sl\">Chain layers</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"1\">0</div><div class=\"sl\">Currencies</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"6\">0</div><div class=\"sl\">Lenses &amp; views</div></div>\n    </div>\n    <div class=\"meta reveal\" style=\"--d:.3s\">\n      <span><b>Prices &amp; caps</b> as of 11 Jun 2026 (point-in-time)</span>\n      <span><b>Source</b> public market data / SEC filings</span>\n      <span><b>Derived &amp; score fields</b> estimates</span>\n    </div>\n    <div class=\"scrollcue reveal\" style=\"--d:.38s\">Scroll to explore <span class=\"arr\">&#8595;</span></div>\n    <div class=\"flag\" id=\"tickerflag\">\n      <b>Accuracy note -</b> price, market cap, P/E and revenue/growth are from public market data and filings <b>as of ~10 Jun 2026</b>\n      and drift as prices move. ROIC, FCF and the 0-10 radar scores are derived estimates. Several high-growth names (CrowdStrike,\n      Zscaler, Cloudflare) are GAAP-unprofitable with heavy stock-based comp - toggle the SBC-adjusted basis and read FCF margin\n      over GAAP P/E. CyberArk has been excluded (acquired by Palo Alto Networks). CrowdStrike splits 4-for-1 on 2 Jul 2026.</div>",
+    "hero": "<div class=\"eyebrow reveal\">Equity comparison · 3-year horizon · cybersecurity value chain</div>\n    <h1 class=\"reveal\" style=\"--d:.06s\">The whole <span class=\"lede\">cyber security</span><br>value chain,<br><span class=\"tnum\">11</span> names deep.</h1>\n    <p class=\"reveal\" style=\"--d:.16s\">From the consolidating security platforms, through cloud and zero-trust (SASE), identity, detection and SIEM,\n       out to exposure management and consumer safety. A secular-growth software theme sharpened by AI-driven threats, graded on\n       returns vs. cost of capital, moat direction, balance-sheet resilience and what today's price assumes.</p>\n    <div class=\"statrow reveal\" style=\"--d:.24s\">\n      <div class=\"stat\"><div class=\"sv\" data-count=\"11\">0</div><div class=\"sl\">Companies</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"5\">0</div><div class=\"sl\">Chain layers</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"1\">0</div><div class=\"sl\">Currencies</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"6\">0</div><div class=\"sl\">Lenses &amp; views</div></div>\n    </div>\n    <div class=\"meta reveal\" style=\"--d:.3s\">\n      <span><b>Prices &amp; caps</b> as of 20 Jul 2026 (point-in-time)</span>\n      <span><b>Source</b> public market data / SEC filings</span>\n      <span><b>Derived &amp; score fields</b> estimates</span>\n    </div>\n    <div class=\"scrollcue reveal\" style=\"--d:.38s\">Scroll to explore <span class=\"arr\">&#8595;</span></div>\n    <div class=\"flag\" id=\"tickerflag\">\n      <b>Accuracy note -</b> price, market cap, P/E and revenue/growth are from public market data and filings <b>as of ~10 Jun 2026</b>\n      and drift as prices move. ROIC, FCF and the 0-10 radar scores are derived estimates. Several high-growth names (CrowdStrike,\n      Zscaler, Cloudflare) are GAAP-unprofitable with heavy stock-based comp - toggle the SBC-adjusted basis and read FCF margin\n      over GAAP P/E. CyberArk has been excluded (acquired by Palo Alto Networks). CrowdStrike splits 4-for-1 on 2 Jul 2026.</div>",
     "footer": "<b>Sources &amp; method.</b> Prices, market caps, P/E and revenue/growth are from public market data and SEC filings <b>as of ~10 Jun 2026</b> and are point-in-time. ROIC, ROE, FCF margin/conversion, EV/EBITDA, net-debt and the 0-10 radar scores are the author's estimates and normalizations. Many security names are GAAP-unprofitable while strongly FCF-positive, so judge them on FCF margin and the SBC-adjusted basis rather than GAAP P/E. CyberArk is excluded (acquired by Palo Alto Networks). Reverse-DCF uses a 10-year FCF-to-equity model.<br><br><b>Verify live before acting.</b> Not investment advice; the author is not a financial adviser.",
     "captions": {
       "radar": "A firewall maker and a cloud zero-trust vendor can score similarly for opposite reasons.",
@@ -51,8 +51,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "enterprise network security"
       },
-      "price": 263.22,
-      "mcap": 214.52,
+      "price": 358.68,
+      "mcap": 292.32,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The platformization leader; closed the $25B CyberArk identity deal (Feb 2026) plus Chronosphere, pushing FY26 revenue to ~$11.4B (+24%; Q3 +31% incl M&amp;A). GAAP loss on deal costs; ~38% adjusted FCF margin. Now ~72x fwd P/E, ~19x EV/Sales.",
@@ -68,16 +68,16 @@ window.CONFIG = {
         "scal": 9
       },
       "m": {
-        "peTTM": 226.9,
-        "peFwd": 63.9,
+        "peTTM": 311.9,
+        "peFwd": 87.0,
         "pegFwd": 3.5,
-        "evEbitda": 143.9,
-        "evSales": 20.1,
+        "evEbitda": 196.4,
+        "evSales": 27.5,
         "pfcf": 50,
         "fcfYield": 1.9,
         "revCagrHist": 31.1,
         "epsCagrFwd": 18,
-        "gross": 72.0,
+        "gross": 72,
         "op": -2.5,
         "net": 7.9,
         "roic": 4,
@@ -106,8 +106,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "modern endpoint protection"
       },
-      "price": 647.74,
-      "mcap": 164.89,
+      "price": 203.08,
+      "mcap": 206.79,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The cloud-native endpoint leader; Q1 FY27 revenue $1.39B (+26%), ARR ~$5.5B (+24%), record $256M net-new ARR. Non-GAAP op margin ~24%, net cash ~$3.7B. 4-for-1 split effective Jul 2 2026. Premium ~106x fwd P/E, 30x EV/Sales.",
@@ -124,10 +124,10 @@ window.CONFIG = {
       },
       "m": {
         "peTTM": 999,
-        "peFwd": 103.6,
+        "peFwd": 130.0,
         "pegFwd": 4,
         "evEbitda": 80,
-        "evSales": 31.6,
+        "evSales": 39.9,
         "pfcf": 80,
         "fcfYield": 0.6,
         "revCagrHist": 25.6,
@@ -144,7 +144,7 @@ window.CONFIG = {
         "intCov": 99
       },
       "d": {
-        "revPS": 20.22,
+        "revPS": 5.06,
         "netCashPS": 15,
         "fcfM": 0.34
       }
@@ -161,8 +161,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "network firewall appliances"
       },
-      "price": 138.88,
-      "mcap": 101.75,
+      "price": 161.61,
+      "mcap": 118.4,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The margin-and-cash king of firewalls; proprietary ASICs underpin an ~80% gross margin and ~36% non-GAAP op margin. Q1 2026 revenue $1.85B (+20%), product +41%, billings +31%; raised FY26 guide to $7.71-7.87B. Net cash ~$2.1B; ~29x fwd P/E.",
@@ -178,11 +178,11 @@ window.CONFIG = {
         "scal": 8
       },
       "m": {
-        "peTTM": 53.8,
-        "peFwd": 40.5,
+        "peTTM": 62.4,
+        "peFwd": 47.2,
         "pegFwd": 1.8,
-        "evEbitda": 41.9,
-        "evSales": 13.9,
+        "evEbitda": 49.0,
+        "evSales": 16.3,
         "pfcf": 30,
         "fcfYield": 3,
         "revCagrHist": 20.1,
@@ -216,8 +216,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "secure web gateway / ZTNA"
       },
-      "price": 124.73,
-      "mcap": 20.17,
+      "price": 149.94,
+      "mcap": 24.25,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The zero-trust cloud-proxy pioneer; Q3 FY26 revenue $850M (+25%), ARR $3.5B, record ~23% non-GAAP op margin. Shares fell ~32% in May on abrupt sales-leader exits, a cut to ~23% FCF-margin guide and soft FY27 ARR outlook (16-17%). GAAP-unprofitable.",
@@ -234,10 +234,10 @@ window.CONFIG = {
       },
       "m": {
         "peTTM": 999,
-        "peFwd": 27.1,
+        "peFwd": 32.6,
         "pegFwd": 2,
         "evEbitda": 55,
-        "evSales": 5.8,
+        "evSales": 7.1,
         "pfcf": 40,
         "fcfYield": 1.8,
         "revCagrHist": 25.4,
@@ -271,8 +271,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "edge network & application security"
       },
-      "price": 219.67,
-      "mcap": 77.97,
+      "price": 277.66,
+      "mcap": 98.55,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The programmable edge - security, performance and AI inference at the network layer; Q1 2026 revenue $640M (+34%), FY26 guide ~30%. Announced a ~20% workforce reduction alongside the print. GAAP-unprofitable, ~13% FCF margin, ~34x EV/Sales - among the richest multiples in software.",
@@ -289,10 +289,10 @@ window.CONFIG = {
       },
       "m": {
         "peTTM": 999,
-        "peFwd": 140.8,
+        "peFwd": 175.9,
         "pegFwd": 5,
         "evEbitda": 90,
-        "evSales": 33.1,
+        "evSales": 41.9,
         "pfcf": 90,
         "fcfYield": 0.4,
         "revCagrHist": 33.5,
@@ -326,8 +326,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "workforce identity & access mgmt"
       },
-      "price": 114.92,
-      "mcap": 19.97,
+      "price": 149.35,
+      "mcap": 26.19,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The independent identity platform; Q1 FY27 revenue $765M (+11%), FY guide ~$3.2B. Now GAAP-profitable with ~30% FCF margin and ~$2.6B cash; the $350M 2026 convert matured/retired Jun 2026. A security-reinvestment turnaround at ~6x EV/Sales.",
@@ -343,11 +343,11 @@ window.CONFIG = {
         "scal": 8
       },
       "m": {
-        "peTTM": 83.3,
-        "peFwd": 26.9,
+        "peTTM": 109.0,
+        "peFwd": 34.9,
         "pegFwd": 2.6,
-        "evEbitda": 66.7,
-        "evSales": 5.9,
+        "evEbitda": 89.1,
+        "evSales": 7.9,
         "pfcf": 22,
         "fcfYield": 4.6,
         "revCagrHist": 11.2,
@@ -366,7 +366,7 @@ window.CONFIG = {
       "d": {
         "revPS": 16.99,
         "netCashPS": 11,
-        "fcfM": 0.30
+        "fcfM": 0.3
       }
     },
     {
@@ -381,8 +381,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "modern endpoint protection"
       },
-      "price": 14.79,
-      "mcap": 5.07,
+      "price": 19.57,
+      "mcap": 6.68,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The AI-native challenger to CrowdStrike; Q1 FY27 revenue $277M (+21%), ARR $1.16B (+23%), now non-GAAP-profitable with ~22% adjusted FCF margin. Announced ~8% workforce cut. Still GAAP loss-making (op margin ~-29%); ~4.5x EV/Sales, net cash.",
@@ -399,10 +399,10 @@ window.CONFIG = {
       },
       "m": {
         "peTTM": 999,
-        "peFwd": 29.9,
+        "peFwd": 39.7,
         "pegFwd": 4,
         "evEbitda": 60,
-        "evSales": 4.2,
+        "evSales": 5.8,
         "pfcf": 70,
         "fcfYield": 5,
         "revCagrHist": 20.8,
@@ -436,8 +436,8 @@ window.CONFIG = {
         "conf": "low",
         "market": "vulnerability management + SIEM"
       },
-      "price": 7.21,
-      "mcap": 0.48,
+      "price": 12.2,
+      "mcap": 0.82,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "A consolidated detection-and-response and exposure platform at a distressed multiple; Q1 2026 revenue $210M (roughly flat YoY), FY26 guide $836-842M implies a decline. FCF guide $125-135M (~15.5% margin) against a $0.48B cap. Net debt from convert notes; the value-trap risk is real.",
@@ -453,17 +453,17 @@ window.CONFIG = {
         "scal": 6
       },
       "m": {
-        "peTTM": 20.6,
-        "peFwd": 4.6,
+        "peTTM": 34.9,
+        "peFwd": 7.9,
         "pegFwd": 1,
-        "evEbitda": 13.6,
-        "evSales": 0.9,
+        "evEbitda": 19.5,
+        "evSales": 1.3,
         "pfcf": 6,
         "fcfYield": 27,
         "revCagrHist": -0.3,
         "epsCagrFwd": 5,
         "gross": 69.7,
-        "op": 0.0,
+        "op": 0,
         "net": 2.6,
         "roic": 8,
         "roe": 19.7,
@@ -491,8 +491,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "cloud vulnerability management"
       },
-      "price": 110.2,
-      "mcap": 3.88,
+      "price": 159.43,
+      "mcap": 5.61,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "A profitable, cash-rich cloud vulnerability and compliance platform; Q1 2026 revenue $176M (+10%), FY26 guide raised to $721-727M. Rare ~31% GAAP operating margin and high-30s FCF margin for security software, with ~$440M net cash and no debt. Now ~12x fwd P/E.",
@@ -508,17 +508,17 @@ window.CONFIG = {
         "scal": 7
       },
       "m": {
-        "peTTM": 19.7,
-        "peFwd": 13.3,
+        "peTTM": 28.7,
+        "peFwd": 19.3,
         "pegFwd": 1.2,
-        "evEbitda": 14.1,
-        "evSales": 5.1,
+        "evEbitda": 21.2,
+        "evSales": 7.6,
         "pfcf": 18,
         "fcfYield": 8,
         "revCagrHist": 9.8,
         "epsCagrFwd": 12,
         "gross": 83.2,
-        "op": 35.0,
+        "op": 35,
         "net": 29.4,
         "roic": 29,
         "roe": 37.7,
@@ -546,8 +546,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "vulnerability / exposure management"
       },
-      "price": 26.8,
-      "mcap": 2.96,
+      "price": 39.88,
+      "mcap": 4.4,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The Nessus franchise broadening into unified exposure management across cloud, OT and identity (Vulcan, Apex tuck-ins); Q1 2026 revenue +10%, FY26 guide ~7% with lifted outlook. Slight GAAP loss, ~25% FCF margin, ~8.6% FCF yield. Modest net debt from convert notes; ~14x fwd P/E.",
@@ -564,10 +564,10 @@ window.CONFIG = {
       },
       "m": {
         "peTTM": 999,
-        "peFwd": 12.3,
+        "peFwd": 18.4,
         "pegFwd": 0.6,
-        "evEbitda": 74.4,
-        "evSales": 3,
+        "evEbitda": 110.0,
+        "evSales": 4.4,
         "pfcf": 20,
         "fcfYield": 8.6,
         "revCagrHist": 9.6,
@@ -601,8 +601,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "consumer cybersecurity subscriptions"
       },
-      "price": 24.62,
-      "mcap": 14.83,
+      "price": 26.74,
+      "mcap": 16.11,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The consumer cyber-safety roll-up (Norton, Avast, LifeLock + MoneyLion); FY26 revenue ~$5.0B (+27% reported, ~9% organic), ~50% GAAP operating margin, ~30% FCF margin. New Norton Neo AI browser; ~$2.1B buyback authorization. ~8x forward P/E but carries ~$7B net debt (~3.85x EBITDA).",
@@ -618,11 +618,11 @@ window.CONFIG = {
         "scal": 6
       },
       "m": {
-        "peTTM": 15.7,
-        "peFwd": 7.5,
+        "peTTM": 17.0,
+        "peFwd": 8.1,
         "pegFwd": 0.5,
-        "evEbitda": 9.5,
-        "evSales": 4.5,
+        "evEbitda": 10.0,
+        "evSales": 4.8,
         "pfcf": 11,
         "fcfYield": 10,
         "revCagrHist": 27,
@@ -641,7 +641,7 @@ window.CONFIG = {
       "d": {
         "revPS": 8.17,
         "netCashPS": -11,
-        "fcfM": 0.30
+        "fcfM": 0.3
       }
     }
   ]
