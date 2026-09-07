@@ -1,8 +1,8 @@
-/* ai-infra — data + copy for the shared dashboard engine. Quantitative fields refreshed 2026-06-11 via scripts/refresh_data.py; radar scores & ROIC/FCF estimates are curated. */
+/* ai-infra — data + copy for the shared dashboard engine. Quantitative fields refreshed 2026-09-07 via scripts/refresh_data.py; radar scores & ROIC/FCF estimates are curated. */
 window.CONFIG = {
   "meta": {
     "title": "AI Infrastructure & Data Centers — 3-Year Comparison",
-    "hero": "<div class=\"eyebrow reveal\">Equity comparison · 3-year horizon · AI infrastructure value chain</div>\n    <h1 class=\"reveal\" style=\"--d:.06s\">The whole <span class=\"lede\">AI infrastructure</span><br>value chain,<br><span class=\"tnum\">14</span> names deep.</h1>\n    <p class=\"reveal\" style=\"--d:.16s\">From the silicon and high-bandwidth memory, through networking and optical interconnect, the servers,\n       power and cooling, the data-center REITs that house it all, out to the hyperscalers whose capex pulls the whole chain.\n       Graded on returns vs. cost of capital, moat direction, balance-sheet resilience and what today's price assumes.</p>\n    <div class=\"statrow reveal\" style=\"--d:.24s\">\n      <div class=\"stat\"><div class=\"sv\" data-count=\"14\">0</div><div class=\"sl\">Companies</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"8\">0</div><div class=\"sl\">Chain layers</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"1\">0</div><div class=\"sl\">Currencies</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"6\">0</div><div class=\"sl\">Lenses &amp; views</div></div>\n    </div>\n    <div class=\"meta reveal\" style=\"--d:.3s\">\n      <span><b>Prices &amp; caps</b> as of 11 Jun 2026 (point-in-time)</span>\n      <span><b>Source</b> public market data / SEC filings</span>\n      <span><b>Derived &amp; score fields</b> estimates</span>\n    </div>\n    <div class=\"scrollcue reveal\" style=\"--d:.38s\">Scroll to explore <span class=\"arr\">&#8595;</span></div>\n    <div class=\"flag\" id=\"tickerflag\">\n      <b>Accuracy note -</b> price, market cap, trailing/forward P/E, gross/operating/net margin and revenue growth are taken\n      from public market data and company filings <b>as of ~10 Jun 2026</b> and will drift as prices move. Derived metrics\n      (ROIC, ROE, FCF margin/conversion, EV/EBITDA, net debt) and the 0-10 radar scores are the author's estimates and\n      normalizations. REIT multiples (Equinix, Digital Realty) are GAAP-P/E-like and read high; judge them on P/FFO and yield.</div>",
+    "hero": "<div class=\"eyebrow reveal\">Equity comparison · 3-year horizon · AI infrastructure value chain</div>\n    <h1 class=\"reveal\" style=\"--d:.06s\">The whole <span class=\"lede\">AI infrastructure</span><br>value chain,<br><span class=\"tnum\">14</span> names deep.</h1>\n    <p class=\"reveal\" style=\"--d:.16s\">From the silicon and high-bandwidth memory, through networking and optical interconnect, the servers,\n       power and cooling, the data-center REITs that house it all, out to the hyperscalers whose capex pulls the whole chain.\n       Graded on returns vs. cost of capital, moat direction, balance-sheet resilience and what today's price assumes.</p>\n    <div class=\"statrow reveal\" style=\"--d:.24s\">\n      <div class=\"stat\"><div class=\"sv\" data-count=\"14\">0</div><div class=\"sl\">Companies</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"8\">0</div><div class=\"sl\">Chain layers</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"1\">0</div><div class=\"sl\">Currencies</div></div>\n      <div class=\"stat\"><div class=\"sv\" data-count=\"6\">0</div><div class=\"sl\">Lenses &amp; views</div></div>\n    </div>\n    <div class=\"meta reveal\" style=\"--d:.3s\">\n      <span><b>Prices &amp; caps</b> as of 7 Sep 2026 (point-in-time)</span>\n      <span><b>Source</b> public market data / SEC filings</span>\n      <span><b>Derived &amp; score fields</b> estimates</span>\n    </div>\n    <div class=\"scrollcue reveal\" style=\"--d:.38s\">Scroll to explore <span class=\"arr\">&#8595;</span></div>\n    <div class=\"flag\" id=\"tickerflag\">\n      <b>Accuracy note -</b> price, market cap, trailing/forward P/E, gross/operating/net margin and revenue growth are taken\n      from public market data and company filings <b>as of ~10 Jun 2026</b> and will drift as prices move. Derived metrics\n      (ROIC, ROE, FCF margin/conversion, EV/EBITDA, net debt) and the 0-10 radar scores are the author's estimates and\n      normalizations. REIT multiples (Equinix, Digital Realty) are GAAP-P/E-like and read high; judge them on P/FFO and yield.</div>",
     "footer": "<b>Sources &amp; method.</b> Prices, market caps, trailing/forward P/E, margins and revenue growth are gathered from public market data and SEC filings <b>as of ~10 Jun 2026</b> and are point-in-time - they drift as markets move. ROIC, ROE, FCF margin/yield/conversion, EV/EBITDA, net-debt and the 0-10 radar scores are the author's estimates and normalizations, not consensus pulls. Equinix and Digital Realty are REITs: their GAAP P/E reads high, so judge them on P/FFO, AFFO growth and yield. Reverse-DCF uses a transparent 10-year FCF-to-equity model.<br><br><b>Verify live before acting.</b> This is an analytical tool, not investment advice; the author is not a financial adviser.",
     "captions": {
       "radar": "A GPU designer and a data-center REIT can score similarly for opposite reasons.",
@@ -66,8 +66,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "data-center AI accelerators"
       },
-      "price": 200.42,
-      "mcap": 4854.37,
+      "price": 230.36,
+      "mcap": 5562.5,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The demand engine of the AI build-out — GPUs plus the CUDA moat define training compute and pull the whole infrastructure chain (TTM revenue ~$253B, Q1 FY27 +85% YoY).",
@@ -83,20 +83,20 @@ window.CONFIG = {
         "scal": 10
       },
       "m": {
-        "peTTM": 30.7,
-        "peFwd": 15.7,
+        "peTTM": 29.2,
+        "peFwd": 14.8,
         "pegFwd": 0.8,
-        "evEbitda": 29.1,
-        "evSales": 19,
+        "evEbitda": 27.5,
+        "evSales": 18.2,
         "pfcf": 30,
         "fcfYield": 1.9,
-        "revCagrHist": 85.2,
+        "revCagrHist": 105.9,
         "epsCagrFwd": 28,
-        "gross": 74.1,
-        "op": 65.6,
-        "net": 63.0,
+        "gross": 74.7,
+        "op": 66.2,
+        "net": 63.7,
         "roic": 105,
-        "roe": 114.3,
+        "roe": 117.2,
         "fcfMargin": 48,
         "fcfConv": 95,
         "sbc": 3.5,
@@ -104,7 +104,7 @@ window.CONFIG = {
         "intCov": 999
       },
       "d": {
-        "revPS": 10.42,
+        "revPS": 12.48,
         "netCashPS": 3,
         "fcfM": 0.42
       }
@@ -121,8 +121,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "custom AI accelerator silicon"
       },
-      "price": 372.1,
-      "mcap": 1770.3,
+      "price": 357.89,
+      "mcap": 1702.71,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The hyperscaler-ASIC and networking-silicon winner with a sticky software tail; Q2 FY26 AI semi revenue ~$10.8B, +143% YoY, FY27 AI guide reiterated &gt;$100B.",
@@ -138,28 +138,28 @@ window.CONFIG = {
         "scal": 9
       },
       "m": {
-        "peTTM": 61.7,
-        "peFwd": 19.2,
+        "peTTM": 45.6,
+        "peFwd": 18.5,
         "pegFwd": 1.1,
-        "evEbitda": 43.3,
-        "evSales": 24.1,
+        "evEbitda": 33.4,
+        "evSales": 19.5,
         "pfcf": 35,
         "fcfYield": 1.5,
-        "revCagrHist": 47.9,
+        "revCagrHist": 85.5,
         "epsCagrFwd": 30,
-        "gross": 76.3,
-        "op": 49.0,
-        "net": 38.8,
+        "gross": 75.5,
+        "op": 54.3,
+        "net": 42.9,
         "roic": 24,
-        "roe": 37.3,
+        "roe": 44.2,
         "fcfMargin": 42,
         "fcfConv": 100,
         "sbc": 5,
-        "netDebtEbitda": 1.0,
+        "netDebtEbitda": 1,
         "intCov": 9
       },
       "d": {
-        "revPS": 15.94,
+        "revPS": 18.77,
         "netCashPS": -9.5,
         "fcfM": 0.46
       }
@@ -176,8 +176,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "x86 CPUs (units)"
       },
-      "price": 452.4,
-      "mcap": 737.68,
+      "price": 477.57,
+      "mcap": 779.62,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The only credible non-NVIDIA AI-GPU roadmap plus durable server-CPU share gains; Q1 2026 revenue $10.25B (+38%), DC $5.8B (+57%), MI350 shipping with MI400/Helios rack-scale due 2H26.",
@@ -193,20 +193,20 @@ window.CONFIG = {
         "scal": 8
       },
       "m": {
-        "peTTM": 151.3,
-        "peFwd": 34.6,
+        "peTTM": 121.8,
+        "peFwd": 30.9,
         "pegFwd": 1.5,
-        "evEbitda": 98.1,
-        "evSales": 19.5,
+        "evEbitda": 80.6,
+        "evSales": 18.7,
         "pfcf": 70,
         "fcfYield": 0.7,
-        "revCagrHist": 37.8,
+        "revCagrHist": 50.1,
         "epsCagrFwd": 40,
-        "gross": 53.1,
-        "op": 14.4,
-        "net": 13.4,
+        "gross": 55.7,
+        "op": 17.2,
+        "net": 15.6,
         "roic": 9,
-        "roe": 8.1,
+        "roe": 10.2,
         "fcfMargin": 16,
         "fcfConv": 100,
         "sbc": 6,
@@ -214,7 +214,7 @@ window.CONFIG = {
         "intCov": 99
       },
       "d": {
-        "revPS": 23.02,
+        "revPS": 25.36,
         "netCashPS": 5.6,
         "fcfM": 0.13
       }
@@ -231,8 +231,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "DRAM + HBM memory"
       },
-      "price": 891.88,
-      "mcap": 1005.8,
+      "price": 1016.59,
+      "mcap": 1148.13,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The Western HBM lever — AI accelerators need ever more high-bandwidth memory, reportedly sold out for 2026 on binding contracts; latest quarter revenue +196% YoY, Q3 FY26 guide ~$33.5B at ~81% gross margin (records).",
@@ -248,20 +248,20 @@ window.CONFIG = {
         "scal": 7
       },
       "m": {
-        "peTTM": 42.2,
-        "peFwd": 8.0,
+        "peTTM": 23.0,
+        "peFwd": 6.6,
         "pegFwd": 0.2,
-        "evEbitda": 27.2,
-        "evSales": 17.2,
+        "evEbitda": 16.5,
+        "evSales": 12.5,
         "pfcf": 14,
         "fcfYield": 0.9,
-        "revCagrHist": 196.3,
+        "revCagrHist": 345.7,
         "epsCagrFwd": 40,
-        "gross": 58.4,
-        "op": 67.6,
-        "net": 41.5,
+        "gross": 72.6,
+        "op": 80.4,
+        "net": 55.9,
         "roic": 37,
-        "roe": 39.8,
+        "roe": 66.6,
         "fcfMargin": 18,
         "fcfConv": 75,
         "sbc": 3,
@@ -269,7 +269,7 @@ window.CONFIG = {
         "intCov": 30
       },
       "d": {
-        "revPS": 51.8,
+        "revPS": 80.24,
         "netCashPS": 5.2,
         "fcfM": 0.17
       }
@@ -286,8 +286,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "high-speed data-center switching"
       },
-      "price": 151.76,
-      "mcap": 191.09,
+      "price": 193.78,
+      "mcap": 244.4,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The AI-back-end networking standard — 400/800G Ethernet for the largest AI clusters; TTM revenue ~$11.5B (+31%), ~38% net margin, ~$12B net cash.",
@@ -303,18 +303,18 @@ window.CONFIG = {
         "scal": 8
       },
       "m": {
-        "peTTM": 52.3,
-        "peFwd": 34.1,
+        "peTTM": 61.3,
+        "peFwd": 37.6,
         "pegFwd": 1.5,
-        "evEbitda": 42.2,
-        "evSales": 18.4,
+        "evEbitda": 49.8,
+        "evSales": 21.9,
         "pfcf": 50,
         "fcfYield": 2.5,
-        "revCagrHist": 35.1,
+        "revCagrHist": 37.7,
         "epsCagrFwd": 28,
-        "gross": 63.5,
-        "op": 42.7,
-        "net": 38.3,
+        "gross": 63.0,
+        "op": 45.4,
+        "net": 38.4,
         "roic": 60,
         "roe": 31.5,
         "fcfMargin": 35,
@@ -324,7 +324,7 @@ window.CONFIG = {
         "intCov": 999
       },
       "d": {
-        "revPS": 7.72,
+        "revPS": 8.38,
         "netCashPS": 9.8,
         "fcfM": 0.46
       }
@@ -341,8 +341,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "datacom optical transceivers"
       },
-      "price": 354.77,
-      "mcap": 69.41,
+      "price": 281.86,
+      "mcap": 55.2,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "An optics play levered straight to AI bandwidth — 800G/1.6T transceivers plus co-packaged optics; NVIDIA took a ~$2B stake with a multiyear CPO supply deal, backlog runs into CY2028, and leverage has fallen to ~0.5x EBITDA.",
@@ -358,20 +358,20 @@ window.CONFIG = {
         "scal": 7
       },
       "m": {
-        "peTTM": 169.7,
-        "peFwd": 43.8,
+        "peTTM": 68.4,
+        "peFwd": 20.2,
         "pegFwd": 1.1,
-        "evEbitda": 53.9,
-        "evSales": 10.7,
+        "evEbitda": 40.1,
+        "evSales": 8.0,
         "pfcf": 40,
-        "fcfYield": 1.0,
-        "revCagrHist": 20.5,
+        "fcfYield": 1,
+        "revCagrHist": 33.7,
         "epsCagrFwd": 40,
-        "gross": 37.0,
-        "op": 13.6,
-        "net": 7.1,
+        "gross": 37.5,
+        "op": 11.8,
+        "net": 11.3,
         "roic": 6,
-        "roe": 4.7,
+        "roe": 8.0,
         "fcfMargin": 8,
         "fcfConv": 70,
         "sbc": 3,
@@ -379,7 +379,7 @@ window.CONFIG = {
         "intCov": 6
       },
       "d": {
-        "revPS": 39.48,
+        "revPS": 40.16,
         "netCashPS": -5.1,
         "fcfM": 0.08
       }
@@ -396,8 +396,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "coherent optical networking"
       },
-      "price": 434.65,
-      "mcap": 61.53,
+      "price": 321.0,
+      "mcap": 45.52,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "Coherent optical systems connecting data centers; Q2 FY26 revenue +40% YoY, FY26 guide raised to ~$6.3B (+32%), adj. EBITDA tripled to ~$340M as cloud/DCI demand inflects.",
@@ -413,16 +413,16 @@ window.CONFIG = {
         "scal": 6
       },
       "m": {
-        "peTTM": 145.4,
-        "peFwd": 45.2,
+        "peTTM": 72.0,
+        "peFwd": 27.7,
         "pegFwd": 1.1,
-        "evEbitda": 78.8,
-        "evSales": 11.1,
+        "evEbitda": 57.7,
+        "evSales": 8.1,
         "pfcf": 40,
-        "fcfYield": 1.0,
+        "fcfYield": 1,
         "revCagrHist": 39.5,
         "epsCagrFwd": 35,
-        "gross": 43.0,
+        "gross": 43,
         "op": 15.2,
         "net": 7.9,
         "roic": 18,
@@ -451,8 +451,8 @@ window.CONFIG = {
         "conf": "low",
         "market": "AI server systems"
       },
-      "price": 29.27,
-      "mcap": 17.6,
+      "price": 39.59,
+      "mcap": 26.01,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The fastest AI-server assembler, first to scale liquid-cooled racks (~$13B Blackwell backlog) — but \"survival pricing\" gutted gross margin to ~9%, it now carries net debt, and material-weakness/governance scars persist after January's Nasdaq re-compliance.",
@@ -468,20 +468,20 @@ window.CONFIG = {
         "scal": 7
       },
       "m": {
-        "peTTM": 21.4,
-        "peFwd": 9.0,
+        "peTTM": 12.1,
+        "peFwd": 7.4,
         "pegFwd": 0.7,
-        "evEbitda": 16.1,
+        "evEbitda": 11.3,
         "evSales": 0.8,
         "pfcf": 18,
-        "fcfYield": 2.0,
-        "revCagrHist": 122.7,
+        "fcfYield": 2,
+        "revCagrHist": 93.2,
         "epsCagrFwd": 20,
-        "gross": 8.4,
-        "op": 6.1,
-        "net": 3.7,
+        "gross": 10.8,
+        "op": 13.4,
+        "net": 5.7,
         "roic": 10,
-        "roe": 17.9,
+        "roe": 21.5,
         "fcfMargin": 4,
         "fcfConv": 40,
         "sbc": 2,
@@ -489,7 +489,7 @@ window.CONFIG = {
         "intCov": 15
       },
       "d": {
-        "revPS": 56.37,
+        "revPS": 64.91,
         "netCashPS": -3.4,
         "fcfM": 0.01
       }
@@ -506,8 +506,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "enterprise & AI server shipments"
       },
-      "price": 369.83,
-      "mcap": 239.69,
+      "price": 524.14,
+      "mcap": 338.67,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The enterprise AI-server share leader riding a record AI-server backlog; LTM revenue ~$134B, FY27 guide ~$140B, ~$11B annual cash flow and ROIC above WACC.",
@@ -523,18 +523,18 @@ window.CONFIG = {
         "scal": 6
       },
       "m": {
-        "peTTM": 29.5,
-        "peFwd": 17.5,
+        "peTTM": 30.5,
+        "peFwd": 18.3,
         "pegFwd": 1.2,
-        "evEbitda": 18.7,
-        "evSales": 1.9,
+        "evEbitda": 20.6,
+        "evSales": 2.4,
         "pfcf": 14,
         "fcfYield": 3.5,
-        "revCagrHist": 87.5,
+        "revCagrHist": 57.7,
         "epsCagrFwd": 14,
-        "gross": 19.2,
-        "op": 8.3,
-        "net": 6.3,
+        "gross": 19.9,
+        "op": 11.5,
+        "net": 7.5,
         "roic": 15,
         "roe": 150,
         "fcfMargin": 6,
@@ -544,7 +544,7 @@ window.CONFIG = {
         "intCov": 12
       },
       "d": {
-        "revPS": 201.73,
+        "revPS": 230.48,
         "netCashPS": -31,
         "fcfM": 0.07
       }
@@ -561,8 +561,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "data-center power & cooling systems"
       },
-      "price": 280.98,
-      "mcap": 107.93,
+      "price": 280.53,
+      "mcap": 108.0,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The pure-play on data-center power and liquid cooling — Q1 26 net sales +30% (+23% organic), FY26 guide $13.25-13.75B (~+28%), adj. op margin ~21%, ~32% ROIC, modest net debt.",
@@ -578,20 +578,20 @@ window.CONFIG = {
         "scal": 8
       },
       "m": {
-        "peTTM": 70.8,
-        "peFwd": 31.7,
+        "peTTM": 63.3,
+        "peFwd": 30.8,
         "pegFwd": 1.6,
-        "evEbitda": 45.6,
-        "evSales": 10.0,
+        "evEbitda": 40.4,
+        "evSales": 9.4,
         "pfcf": 45,
         "fcfYield": 2.3,
-        "revCagrHist": 30.1,
+        "revCagrHist": 24.1,
         "epsCagrFwd": 28,
-        "gross": 37.2,
-        "op": 16.4,
-        "net": 14.4,
+        "gross": 38.0,
+        "op": 20.4,
+        "net": 15.1,
         "roic": 32,
-        "roe": 45.1,
+        "roe": 43.9,
         "fcfMargin": 14,
         "fcfConv": 90,
         "sbc": 2,
@@ -599,7 +599,7 @@ window.CONFIG = {
         "intCov": 20
       },
       "d": {
-        "revPS": 28.37,
+        "revPS": 29.97,
         "netCashPS": -2,
         "fcfM": 0.17
       }
@@ -616,8 +616,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "retail colocation / interconnection"
       },
-      "price": 1038.33,
-      "mcap": 102.4,
+      "price": 1035.98,
+      "mcap": 102.22,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The interconnection-dense colocation REIT with a global network-effect moat; FY26 revenue guide ~+9-10%, ~51% adj-EBITDA margin, AFFO/sh +10-12%, record Q1'26 bookings ~60% AI-linked. Judge on ~25x P/AFFO and ~2% yield, not GAAP P/E.",
@@ -633,20 +633,20 @@ window.CONFIG = {
         "scal": 7
       },
       "m": {
-        "peTTM": 72.0,
-        "peFwd": 54.0,
+        "peTTM": 66.7,
+        "peFwd": 55.4,
         "pegFwd": 4,
-        "evEbitda": 29.1,
-        "evSales": 13.1,
+        "evEbitda": 27.4,
+        "evSales": 12.6,
         "pfcf": 40,
         "fcfYield": 1.9,
-        "revCagrHist": 12.1,
+        "revCagrHist": 16.7,
         "epsCagrFwd": 11,
-        "gross": 51.6,
-        "op": 24.3,
-        "net": 14.9,
+        "gross": 52.0,
+        "op": 27.0,
+        "net": 15.5,
         "roic": 5,
-        "roe": 10.1,
+        "roe": 10.7,
         "fcfMargin": 20,
         "fcfConv": 80,
         "sbc": 1,
@@ -654,7 +654,7 @@ window.CONFIG = {
         "intCov": 8
       },
       "d": {
-        "revPS": 97.1,
+        "revPS": 100.75,
         "netCashPS": -221,
         "fcfM": 0.2
       }
@@ -671,8 +671,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "hyperscale data-center capacity"
       },
-      "price": 180.78,
-      "mcap": 64.66,
+      "price": 188.39,
+      "mcap": 71.15,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "Scaled hyperscale-capacity landlord; 2026 core FFO/sh guide $8.00-8.10 (~+13%), ~2.6% yield, with a record $16.5B development pipeline (61% pre-leased) and a 200MW single AI-inference lease. Judge on ~26x P/FFO.",
@@ -688,20 +688,20 @@ window.CONFIG = {
         "scal": 6
       },
       "m": {
-        "peTTM": 47.8,
-        "peFwd": 63.1,
+        "peTTM": 91.9,
+        "peFwd": 65.2,
         "pegFwd": 3.5,
-        "evEbitda": 28.8,
-        "evSales": 13.2,
+        "evEbitda": 28.3,
+        "evSales": 13.4,
         "pfcf": 45,
         "fcfYield": 2.6,
-        "revCagrHist": 16.7,
+        "revCagrHist": 29.9,
         "epsCagrFwd": 13,
-        "gross": 55.3,
-        "op": 17.2,
-        "net": 21.8,
+        "gross": 57.0,
+        "op": 25.9,
+        "net": 11.8,
         "roic": 5,
-        "roe": 5.7,
+        "roe": 2.9,
         "fcfMargin": 18,
         "fcfConv": 70,
         "sbc": 1,
@@ -709,7 +709,7 @@ window.CONFIG = {
         "intCov": 5
       },
       "d": {
-        "revPS": 18.47,
+        "revPS": 19.53,
         "netCashPS": -48,
         "fcfM": 0.16
       }
@@ -726,8 +726,8 @@ window.CONFIG = {
         "conf": "high",
         "market": "public cloud (IaaS+PaaS)"
       },
-      "price": 397.36,
-      "mcap": 2951.76,
+      "price": 499.7,
+      "mcap": 3710.55,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The enterprise AI distribution machine — Azure re-accelerated to ~+40% cc with an AI run-rate ~$37B (+123%) and capacity-constrained; ~47% operating margin. Stock de-rated ~19% YTD to near a 52-week low on capex fears.",
@@ -743,20 +743,20 @@ window.CONFIG = {
         "scal": 9
       },
       "m": {
-        "peTTM": 23.7,
-        "peFwd": 20.5,
+        "peTTM": 27.9,
+        "peFwd": 21.2,
         "pegFwd": 1.3,
-        "evEbitda": 16.3,
-        "evSales": 9.4,
+        "evEbitda": 19.4,
+        "evSales": 11.3,
         "pfcf": 40,
         "fcfYield": 2.6,
-        "revCagrHist": 18.3,
+        "revCagrHist": 17.7,
         "epsCagrFwd": 16,
-        "gross": 68.3,
-        "op": 46.3,
-        "net": 39.3,
+        "gross": 67.9,
+        "op": 45.1,
+        "net": 40.3,
         "roic": 27,
-        "roe": 34.0,
+        "roe": 34,
         "fcfMargin": 28,
         "fcfConv": 90,
         "sbc": 2,
@@ -764,7 +764,7 @@ window.CONFIG = {
         "intCov": 999
       },
       "d": {
-        "revPS": 42.84,
+        "revPS": 44.67,
         "netCashPS": -6.4,
         "fcfM": 0.23
       }
@@ -781,8 +781,8 @@ window.CONFIG = {
         "conf": "medium",
         "market": "public cloud infrastructure (OCI)"
       },
-      "price": 201.26,
-      "mcap": 578.83,
+      "price": 158.78,
+      "mcap": 457.36,
       "cur": "$",
       "mcapUSD": true,
       "thesis": "The surprise AI-cloud share-taker — RPO backlog ~$638B (+363% YoY) as AI labs rent OCI (+93% YoY), but FY26 revenue grew only ~17% and FCF turned deeply negative (~-$24B) on ~$50B debt-funded GPU/datacenter capex.",
@@ -798,20 +798,20 @@ window.CONFIG = {
         "scal": 8
       },
       "m": {
-        "peTTM": 36.1,
-        "peFwd": 18.7,
+        "peTTM": 27.2,
+        "peFwd": 14.5,
         "pegFwd": 1.1,
-        "evEbitda": 25.8,
-        "evSales": 11.0,
+        "evEbitda": 19.6,
+        "evSales": 8.9,
         "pfcf": 45,
         "fcfYield": 1.5,
-        "revCagrHist": 21.7,
+        "revCagrHist": 20.6,
         "epsCagrFwd": 20,
-        "gross": 67.1,
-        "op": 32.7,
-        "net": 25.3,
+        "gross": 65.8,
+        "op": 36.2,
+        "net": 25.4,
         "roic": 15,
-        "roe": 57.6,
+        "roe": 53.4,
         "fcfMargin": 8,
         "fcfConv": 40,
         "sbc": 3,
@@ -819,7 +819,7 @@ window.CONFIG = {
         "intCov": 8
       },
       "d": {
-        "revPS": 22.54,
+        "revPS": 23.55,
         "netCashPS": -44,
         "fcfM": -0.35
       }
